@@ -44,11 +44,11 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 | # | /iː/ 目标音 | IPA | /ɪ/ 目标音 | IPA | 一句话纠正 |
 |---|------------|-----|-----------|-----|-----------|
-| 1 | see | /siː/ [🔊](/courses/audio/words/see.mp3) | sit | /sɪt/ [🔊](/courses/audio/words/sit.mp3) | 发 *see* 时嘴角向外扯到能感觉颧肌收紧；发 *sit* 时嘴角立刻松开 |
-| 2 | sheep | /ʃiːp/ [🔊](/courses/audio/words/sheep.mp3) | ship | /ʃɪp/ [🔊](/courses/audio/words/ship.mp3) | 两词只差嘴角松紧，辅音 /ʃ/ 和 /p/ 相同，如果听感不对，先单独换元音 |
-| 3 | tea | /tiː/ [🔊](/courses/audio/words/tea.mp3) | six | /sɪks/ [🔊](/courses/audio/words/six.mp3) | *tea* 嘴角用力维持到 /t/ 收音；*six* 嘴角从一开始就放松，不要在词尾才松 |
-| 4 | seat | /siːt/ [🔊](/courses/audio/words/seat.mp3) | sit | /sɪt/ [🔊](/courses/audio/words/sit.mp3) | 经典混淆对：嘴角有没有绷紧就是两个不同的词 |
-| 5 | beach | /biːtʃ/ [🔊](/courses/audio/words/beach.mp3) | bitch | /bɪtʃ/ [🔊](/courses/audio/words/bitch.mp3) | 提示：这一对发错在英语里后果很严重——务必练到嘴角的松紧绝对可控 |
+| 1 | see | /siː/ [🔊](/audio/words/see.mp3) | sit | /sɪt/ [🔊](/audio/words/sit.mp3) | 发 *see* 时嘴角向外扯到能感觉颧肌收紧；发 *sit* 时嘴角立刻松开 |
+| 2 | sheep | /ʃiːp/ [🔊](/audio/words/sheep.mp3) | ship | /ʃɪp/ [🔊](/audio/words/ship.mp3) | 两词只差嘴角松紧，辅音 /ʃ/ 和 /p/ 相同，如果听感不对，先单独换元音 |
+| 3 | tea | /tiː/ [🔊](/audio/words/tea.mp3) | six | /sɪks/ [🔊](/audio/words/six.mp3) | *tea* 嘴角用力维持到 /t/ 收音；*six* 嘴角从一开始就放松，不要在词尾才松 |
+| 4 | seat | /siːt/ [🔊](/audio/words/seat.mp3) | sit | /sɪt/ [🔊](/audio/words/sit.mp3) | 经典混淆对：嘴角有没有绷紧就是两个不同的词 |
+| 5 | beach | /biːtʃ/ [🔊](/audio/words/beach.mp3) | bitch | /bɪtʃ/ [🔊](/audio/words/bitch.mp3) | 提示：这一对发错在英语里后果很严重——务必练到嘴角的松紧绝对可控 |
 
 > ⚠️ **第 5 组刻意放进来**：这是中文母语者最常在无意识中说错且影响最大的词对。不是要吓你，是让你有动力把这组练扎实。
 
@@ -111,11 +111,11 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 **指定练习词（逐词单独录）：**
 
-1. `see` [🔊](/courses/audio/words/see.mp3) vs `sit` [🔊](/courses/audio/words/sit.mp3)
-2. `sheep` [🔊](/courses/audio/words/sheep.mp3) vs `ship` [🔊](/courses/audio/words/ship.mp3)
-3. `seat` [🔊](/courses/audio/words/seat.mp3) vs `sit` [🔊](/courses/audio/words/sit.mp3)
-4. `beach` [🔊](/courses/audio/words/beach.mp3) vs `bitch` [🔊](/courses/audio/words/bitch.mp3)
-5. `tea` [🔊](/courses/audio/words/tea.mp3)，`six` [🔊](/courses/audio/words/six.mp3)
+1. `see` [🔊](/audio/words/see.mp3) vs `sit` [🔊](/audio/words/sit.mp3)
+2. `sheep` [🔊](/audio/words/sheep.mp3) vs `ship` [🔊](/audio/words/ship.mp3)
+3. `seat` [🔊](/audio/words/seat.mp3) vs `sit` [🔊](/audio/words/sit.mp3)
+4. `beach` [🔊](/audio/words/beach.mp3) vs `bitch` [🔊](/audio/words/bitch.mp3)
+5. `tea` [🔊](/audio/words/tea.mp3)，`six` [🔊](/audio/words/six.mp3)
 
 **操作流程：**
 - 先录 /iː/ 那个词 → 立刻回放 → 对照示范音频 → 问自己「嘴角那次有没有绷？」

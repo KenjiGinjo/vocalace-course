@@ -1,5 +1,5 @@
 /**
- * In-page play for markdown links: [🔊](/courses/audio/words/{word}.mp3)
+ * In-page play for markdown links: [🔊](/audio/words/{word}.mp3)
  * Links stay as plain URLs (no JS still opens the file); with JS, click plays inline.
  */
 

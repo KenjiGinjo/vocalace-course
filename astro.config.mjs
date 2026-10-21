@@ -3,8 +3,7 @@ import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 
 export default defineConfig({
-  site: 'https://vocalace.com',
-  base: '/courses',
+  site: 'https://course.vocalace.com',
   integrations: [
     starlight({
       title: 'Vocalace',

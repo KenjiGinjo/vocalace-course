@@ -61,11 +61,11 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 | # | 目标词（/æ/） | IPA | 对比词（/e/） | IPA | 一句话纠正 |
 |---|--------------|-----|--------------|-----|-----------|
-| 1 | bad [🔊](/courses/audio/words/bad.mp3) | /bæd/ | bed [🔊](/courses/audio/words/bed.mp3) | /bɛd/ | 说 bad 时下巴要往下掉，说 bed 不用 |
-| 2 | man [🔊](/courses/audio/words/man.mp3) | /mæn/ | men [🔊](/courses/audio/words/men.mp3) | /mɛn/ | 说 man 时嘴角要拉到发酸，men 不需要 |
-| 3 | cat [🔊](/courses/audio/words/cat.mp3) | /kæt/ | — | — | 独练：/k/ 弹出后立刻把下巴砸下去 |
-| 4 | bag [🔊](/courses/audio/words/bag.mp3) | /bæɡ/ | beg [🔊](/courses/audio/words/beg.mp3) | /bɛɡ/ | bag 里的 /æ/ 拖长半拍，beg 短促 |
-| 5 | land [🔊](/courses/audio/words/land.mp3) | /lænd/ | lend [🔊](/courses/audio/words/lend.mp3) | /lɛnd/ | land 是土地，lend 是借出——张嘴幅度决定意思 |
+| 1 | bad [🔊](/audio/words/bad.mp3) | /bæd/ | bed [🔊](/audio/words/bed.mp3) | /bɛd/ | 说 bad 时下巴要往下掉，说 bed 不用 |
+| 2 | man [🔊](/audio/words/man.mp3) | /mæn/ | men [🔊](/audio/words/men.mp3) | /mɛn/ | 说 man 时嘴角要拉到发酸，men 不需要 |
+| 3 | cat [🔊](/audio/words/cat.mp3) | /kæt/ | — | — | 独练：/k/ 弹出后立刻把下巴砸下去 |
+| 4 | bag [🔊](/audio/words/bag.mp3) | /bæɡ/ | beg [🔊](/audio/words/beg.mp3) | /bɛɡ/ | bag 里的 /æ/ 拖长半拍，beg 短促 |
+| 5 | land [🔊](/audio/words/land.mp3) | /lænd/ | lend [🔊](/audio/words/lend.mp3) | /lɛnd/ | land 是土地，lend 是借出——张嘴幅度决定意思 |
 
 > **cat 单独列出**是因为 /k/ 是爆破音，中文母语者发完 /k/ 后常常「来不及」把嘴张开，/æ/ 就缩成了 /e/。专门练习「先准备好张开的嘴型，再发 /k/」。
 
@@ -127,7 +127,7 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 ### 练习 B｜对比纠音（必做，约 4 分钟）
 
-**指定练习词：** bad [🔊](/courses/audio/words/bad.mp3) / bed [🔊](/courses/audio/words/bed.mp3) / man [🔊](/courses/audio/words/man.mp3) / men [🔊](/courses/audio/words/men.mp3) / cat [🔊](/courses/audio/words/cat.mp3)
+**指定练习词：** bad [🔊](/audio/words/bad.mp3) / bed [🔊](/audio/words/bed.mp3) / man [🔊](/audio/words/man.mp3) / men [🔊](/audio/words/men.mp3) / cat [🔊](/audio/words/cat.mp3)
 
 **操作流程：**
 1. 选 **bad**，对着镜子检查：嘴角横展了吗？下巴落下来了吗？

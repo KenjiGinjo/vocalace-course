@@ -45,20 +45,20 @@ description: "美式英语单元音对比 · /ʊ/ vs /uː/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|---|---|---|---|
-| 1 | **book** [🔊](/courses/audio/words/book.mp3) | /bʊk/ | /buːk/ | 嘴唇不要向前撅，音发完立刻收 |
-| 2 | **look** [🔊](/courses/audio/words/look.mp3) | /lʊk/ | /luːk/ | "l" 出来之后嘴立刻松开，不要停在圆唇状态 |
-| 3 | **good** [🔊](/courses/audio/words/good.mp3) | /ɡʊd/ | /ɡuːd/ | /ʊ/ 结束前 "d" 已经在路上了，音很短 |
-| 4 | **food** [🔊](/courses/audio/words/food.mp3) | /fuːd/ | — | 这个就是「乌」感：主动撅嘴，拉长 |
-| 5 | **too** [🔊](/courses/audio/words/too.mp3) | /tuː/ | — | 闪音 /t̬/ 之后紧接撅嘴长音 |
-| 6 | **blue** [🔊](/courses/audio/words/blue.mp3) | /bluː/ | — | /l/ 结束后嘴继续收圆送出 /uː/ |
+| 1 | **book** [🔊](/audio/words/book.mp3) | /bʊk/ | /buːk/ | 嘴唇不要向前撅，音发完立刻收 |
+| 2 | **look** [🔊](/audio/words/look.mp3) | /lʊk/ | /luːk/ | "l" 出来之后嘴立刻松开，不要停在圆唇状态 |
+| 3 | **good** [🔊](/audio/words/good.mp3) | /ɡʊd/ | /ɡuːd/ | /ʊ/ 结束前 "d" 已经在路上了，音很短 |
+| 4 | **food** [🔊](/audio/words/food.mp3) | /fuːd/ | — | 这个就是「乌」感：主动撅嘴，拉长 |
+| 5 | **too** [🔊](/audio/words/too.mp3) | /tuː/ | — | 闪音 /t̬/ 之后紧接撅嘴长音 |
+| 6 | **blue** [🔊](/audio/words/blue.mp3) | /bluː/ | — | /l/ 结束后嘴继续收圆送出 /uː/ |
 
 **对比组（最小对立）：**
 
 | 对比 | 音频 | 提示 |
 |---|---|---|
-| book /bʊk/ vs food /fuːd/ | [🔊](/courses/audio/words/book.mp3) [🔊](/courses/audio/words/food.mp3) | 同是后高元音，一个松短，一个紧长 |
-| look /lʊk/ vs too /tuː/ | [🔊](/courses/audio/words/look.mp3) [🔊](/courses/audio/words/too.mp3) | 感受 /ʊ/ 的「即停感」 |
-| good /ɡʊd/ vs blue /bluː/ | [🔊](/courses/audio/words/good.mp3) [🔊](/courses/audio/words/blue.mp3) | /ʊ/ 后面有辅音压着，更容易截断 |
+| book /bʊk/ vs food /fuːd/ | [🔊](/audio/words/book.mp3) [🔊](/audio/words/food.mp3) | 同是后高元音，一个松短，一个紧长 |
+| look /lʊk/ vs too /tuː/ | [🔊](/audio/words/look.mp3) [🔊](/audio/words/too.mp3) | 感受 /ʊ/ 的「即停感」 |
+| good /ɡʊd/ vs blue /bluː/ | [🔊](/audio/words/good.mp3) [🔊](/audio/words/blue.mp3) | /ʊ/ 后面有辅音压着，更容易截断 |
 
 ---
 

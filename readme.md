@@ -1,6 +1,6 @@
 # Vocalace Course
 
-[Vocalace](https://vocalace.com) 美式英语公开课程站。Astro Starlight，线上路径 [`/courses`](https://vocalace.com/courses)。
+[Vocalace](https://vocalace.com) 美式英语公开课程站。Astro Starlight，线上地址 [course.vocalace.com](https://course.vocalace.com)。
 
 开源免费，欢迎纠错与补课。觉得有用请给仓库点个 [★ Star](https://github.com/KenjiGinjo/vocalace-course)。
 
@@ -26,25 +26,23 @@
 
 ```bash
 bun install
-bun run dev      # http://localhost:10096/courses/
+bun run dev      # http://localhost:10096/
 bun run build
-bun run preview  # http://localhost:10096/courses/
+bun run preview  # http://localhost:10096/
 ```
 
-`astro.config.mjs`：`base: '/courses'`，`site: 'https://vocalace.com'`。
+`astro.config.mjs`：`site: 'https://course.vocalace.com'`（无 `base`，部署在子域根路径）。
 
 ## 内容结构
 
 - 正文：`src/content/docs/`
 - 侧栏按完整大纲排章节；暂无正文的页标「内容筹备中」
 - 已上线：`1.1 单元音对比` 六课 → `src/content/docs/1-phonetics/1-1/`
-- 从外部目录导入一课（只读源，写入本仓）：
 
-
-站内链接请带 `/courses` 前缀（例如 `/courses/1-phonetics/1-1/ae-vs-e/`）。
+站内链接用根路径（例如 `/1-phonetics/1-1/ae-vs-e/`、`/audio/words/bad.mp3`）。
 
 ## 部署
 
-构建产物在 `dist/`。服务器把该目录挂到站点的 `/courses/`（与主站同域）。
+构建产物在 `dist/`。托管到 Cloudflare Pages / Vercel 等，域名绑 `course.vocalace.com`。
 
 上线后让主站 / sitemap 能发现课程 URL，便于收录。

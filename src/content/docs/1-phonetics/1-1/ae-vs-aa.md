@@ -52,12 +52,12 @@ description: "美式英语单元音对比 · /æ/ vs /ɑː/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|--------|-----|----------|-----------|
-| 1 | **cat** [🔊](/courses/audio/words/cat.mp3) | /kæt/ | /kɑːt/（「卡特」偏后）| 嘴角向两侧拉，感受脸颊肌肉的张力 |
-| 2 | **cot** [🔊](/courses/audio/words/cot.mp3) | /kɑːt/ | /kæt/（嘴角拉太宽）| 松开嘴角，下巴自然下沉，唇绝对不撅 |
-| 3 | **hat** [🔊](/courses/audio/words/hat.mp3) | /hæt/ | /hɑːt/ | 先把嘴角横拉到位，再发 /h/ 气流 |
-| 4 | **hot** [🔊](/courses/audio/words/hot.mp3) | /hɑːt/ | /hæt/ 或中文"哈特" | 下巴掉开、舌体往后收；嘴唇放平不圆 |
-| 5 | **cat–cot 连续对比** [🔊](/courses/audio/words/cat.mp3) [🔊](/courses/audio/words/cot.mp3) | /kæt/ – /kɑːt/ | 两个一样 | 对着镜子：第一个嘴角宽，第二个嘴型高 |
-| 6 | **hat–hot 连续对比** [🔊](/courses/audio/words/hat.mp3) [🔊](/courses/audio/words/hot.mp3) | /hæt/ – /hɑːt/ | 两个一样 | 先固定好第一个的嘴角张力，再放松换到第二个 |
+| 1 | **cat** [🔊](/audio/words/cat.mp3) | /kæt/ | /kɑːt/（「卡特」偏后）| 嘴角向两侧拉，感受脸颊肌肉的张力 |
+| 2 | **cot** [🔊](/audio/words/cot.mp3) | /kɑːt/ | /kæt/（嘴角拉太宽）| 松开嘴角，下巴自然下沉，唇绝对不撅 |
+| 3 | **hat** [🔊](/audio/words/hat.mp3) | /hæt/ | /hɑːt/ | 先把嘴角横拉到位，再发 /h/ 气流 |
+| 4 | **hot** [🔊](/audio/words/hot.mp3) | /hɑːt/ | /hæt/ 或中文"哈特" | 下巴掉开、舌体往后收；嘴唇放平不圆 |
+| 5 | **cat–cot 连续对比** [🔊](/audio/words/cat.mp3) [🔊](/audio/words/cot.mp3) | /kæt/ – /kɑːt/ | 两个一样 | 对着镜子：第一个嘴角宽，第二个嘴型高 |
+| 6 | **hat–hot 连续对比** [🔊](/audio/words/hat.mp3) [🔊](/audio/words/hot.mp3) | /hæt/ – /hɑːt/ | 两个一样 | 先固定好第一个的嘴角张力，再放松换到第二个 |
 
 ---
 
@@ -98,7 +98,7 @@ description: "美式英语单元音对比 · /æ/ vs /ɑː/"
 ### 练习 A｜跟读（必做，约 5 分钟）
 
 **步骤：**
-1. 播放 cat [🔊](/courses/audio/words/cat.mp3)–cot [🔊](/courses/audio/words/cot.mp3)、hat [🔊](/courses/audio/words/hat.mp3)–hot [🔊](/courses/audio/words/hot.mp3)，先**只听**，感受两组音的差异，不跟读。
+1. 播放 cat [🔊](/audio/words/cat.mp3)–cot [🔊](/audio/words/cot.mp3)、hat [🔊](/audio/words/hat.mp3)–hot [🔊](/audio/words/hot.mp3)，先**只听**，感受两组音的差异，不跟读。
 2. 跟读整组对比（cat–cot，hat–hot）×5 次；每次之间停顿 1 秒，对着镜子检查口型。
 3. 用手机录音，把六个词连续说一遍（cat cot / hat hot / cat–cot / hat–hot）。
 4. 回听自己录音，和示范音频逐个对照：**嘴角是不是真的在 /æ/ 时更宽？**
@@ -112,7 +112,7 @@ description: "美式英语单元音对比 · /æ/ vs /ɑː/"
 
 **指定练习词：**
 
-bad [🔊](/courses/audio/words/bad.mp3) / bod [🔊](/courses/audio/words/bod.mp3)　　cap [🔊](/courses/audio/words/cap.mp3) / cop [🔊](/courses/audio/words/cop.mp3)
+bad [🔊](/audio/words/bad.mp3) / bod [🔊](/audio/words/bod.mp3)　　cap [🔊](/audio/words/cap.mp3) / cop [🔊](/audio/words/cop.mp3)
 
 **操作：**
 1. 播放示范，跟读一遍，注意口型。
@@ -182,7 +182,7 @@ bad [🔊](/courses/audio/words/bad.mp3) / bod [🔊](/courses/audio/words/bod.m
 
 - A. /hæt/　　B. /hɑːt/
 
-**答案：B**。hot 是 /ɑːt/；如果你选了 A，说明你还没区分开两个音的听感——回到 3.2 的对比组，先只听 cat [🔊](/courses/audio/words/cat.mp3)–cot [🔊](/courses/audio/words/cot.mp3)、hat [🔊](/courses/audio/words/hat.mp3)–hot [🔊](/courses/audio/words/hot.mp3) 各五遍，不跟读，直到能预判下一个词是哪个音。
+**答案：B**。hot 是 /ɑːt/；如果你选了 A，说明你还没区分开两个音的听感——回到 3.2 的对比组，先只听 cat [🔊](/audio/words/cat.mp3)–cot [🔊](/audio/words/cot.mp3)、hat [🔊](/audio/words/hat.mp3)–hot [🔊](/audio/words/hot.mp3) 各五遍，不跟读，直到能预判下一个词是哪个音。
 
 ---
 

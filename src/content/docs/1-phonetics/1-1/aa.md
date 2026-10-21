@@ -43,12 +43,12 @@ description: "美式英语单元音对比 · /ɑː/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|---|---|---|---|
-| 1 | hot | /hɑːt/ [🔊](/courses/audio/words/hot.mp3) | /hoʊt/（像 hote）或圆唇「哦t」 | 下巴落下、嘴唇不要动，直接发 |
-| 2 | father | /ˈfɑː.ðɚ/ [🔊](/courses/audio/words/father.mp3) | /ˈfoʊ.ðɚ/（fo-ther） | 第一个音节同 *hot*，大开口、不圆 |
-| 3 | law | /lɑː/ [🔊](/courses/audio/words/law.mp3) | /lɔːr/（像 *lore*）或/loʊ/ | 嘴唇不要圆；收尾不要加卷舌 |
-| 4 | thought | /θɑːt/ [🔊](/courses/audio/words/thought.mp3) | /θoʊt/（like *throat* 的感觉）| 美式 *thought* 嘴唇不圆——这和英式不同 |
-| 5 | caught | /kɑːt/ [🔊](/courses/audio/words/caught.mp3) | /koʊt/（像 *coat*） | 与 *cot* /kɑːt/ 同音！嘴巴大开 |
-| 6 | cot | /kɑːt/ [🔊](/courses/audio/words/cot.mp3) | /koʊt/ | 美式 cot = caught，同一个 /ɑː/ |
+| 1 | hot | /hɑːt/ [🔊](/audio/words/hot.mp3) | /hoʊt/（像 hote）或圆唇「哦t」 | 下巴落下、嘴唇不要动，直接发 |
+| 2 | father | /ˈfɑː.ðɚ/ [🔊](/audio/words/father.mp3) | /ˈfoʊ.ðɚ/（fo-ther） | 第一个音节同 *hot*，大开口、不圆 |
+| 3 | law | /lɑː/ [🔊](/audio/words/law.mp3) | /lɔːr/（像 *lore*）或/loʊ/ | 嘴唇不要圆；收尾不要加卷舌 |
+| 4 | thought | /θɑːt/ [🔊](/audio/words/thought.mp3) | /θoʊt/（like *throat* 的感觉）| 美式 *thought* 嘴唇不圆——这和英式不同 |
+| 5 | caught | /kɑːt/ [🔊](/audio/words/caught.mp3) | /koʊt/（像 *coat*） | 与 *cot* /kɑːt/ 同音！嘴巴大开 |
+| 6 | cot | /kɑːt/ [🔊](/audio/words/cot.mp3) | /koʊt/ | 美式 cot = caught，同一个 /ɑː/ |
 
 > **补充说明：** 美式英语里 *caught* 和 *cot* 大多数人发音完全相同（Cot-Caught 合并），都是 /kɑːt/，这不是你听错了，是美式语音特征。
 
@@ -111,7 +111,7 @@ description: "美式英语单元音对比 · /ɑː/"
 
 **指定练习词（5 个）：**
 
-hot [🔊](/courses/audio/words/hot.mp3)　｜　law [🔊](/courses/audio/words/law.mp3)　｜　thought [🔊](/courses/audio/words/thought.mp3)　｜　caught [🔊](/courses/audio/words/caught.mp3)　｜　father [🔊](/courses/audio/words/father.mp3)
+hot [🔊](/audio/words/hot.mp3)　｜　law [🔊](/audio/words/law.mp3)　｜　thought [🔊](/audio/words/thought.mp3)　｜　caught [🔊](/audio/words/caught.mp3)　｜　father [🔊](/audio/words/father.mp3)
 
 **操作流程：**
 1. 选第一个词 *hot*，播放示范音频。

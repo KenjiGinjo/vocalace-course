@@ -43,24 +43,24 @@ description: "美式英语单元音对比 · /ʌ/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|--------|-----|---------|-----------|
-| 1 | cup [🔊](/courses/audio/words/cup.mp3) | /kʌp/ | /kɑːp/（嘴开太大） | 嘴只开到一指宽，短促弹出 |
-| 2 | but [🔊](/courses/audio/words/but.mp3) | /bʌt/ | /bɑːt/ 或 /bət/（太轻） | 这是重读音节，要有力，别塌 |
-| 3 | sun [🔊](/courses/audio/words/sun.mp3) | /sʌn/ | /sɑːn/ | 舌头别往后推；嘴不用张大 |
-| 4 | love [🔊](/courses/audio/words/love.mp3) | /lʌv/ | /lɑːv/ 或 /loʊv/（当成 live/leave） | /ʌ/ 短弹，不要拉长；不是 /oʊ/ |
-| 5 | cut [🔊](/courses/audio/words/cut.mp3) | /kʌt/ | /kɑːt/ | 和 cup 同口型，换个尾音 |
+| 1 | cup [🔊](/audio/words/cup.mp3) | /kʌp/ | /kɑːp/（嘴开太大） | 嘴只开到一指宽，短促弹出 |
+| 2 | but [🔊](/audio/words/but.mp3) | /bʌt/ | /bɑːt/ 或 /bət/（太轻） | 这是重读音节，要有力，别塌 |
+| 3 | sun [🔊](/audio/words/sun.mp3) | /sʌn/ | /sɑːn/ | 舌头别往后推；嘴不用张大 |
+| 4 | love [🔊](/audio/words/love.mp3) | /lʌv/ | /lɑːv/ 或 /loʊv/（当成 live/leave） | /ʌ/ 短弹，不要拉长；不是 /oʊ/ |
+| 5 | cut [🔊](/audio/words/cut.mp3) | /kʌt/ | /kɑːt/ | 和 cup 同口型，换个尾音 |
 
 **B 组：对比词对**（听出两者差异）
 
 | # | /ʌ/ 词 | IPA | VS | /ɑː/ 词 | IPA | 区别感受 |
 |---|--------|-----|----|---------|-----|---------|
-| 1 | cut [🔊](/courses/audio/words/cut.mp3) | /kʌt/ | vs | cot [🔊](/courses/audio/words/cot.mp3) | /kɑːt/ | cut 嘴小力弹；cot 嘴开到底且更长 |
-| 2 | cup [🔊](/courses/audio/words/cup.mp3) | /kʌp/ | vs | cop [🔊](/courses/audio/words/cop.mp3) | /kɑːp/ | cup 嘴微开；cop 下巴往下落 |
+| 1 | cut [🔊](/audio/words/cut.mp3) | /kʌt/ | vs | cot [🔊](/audio/words/cot.mp3) | /kɑːt/ | cut 嘴小力弹；cot 嘴开到底且更长 |
+| 2 | cup [🔊](/audio/words/cup.mp3) | /kʌp/ | vs | cop [🔊](/audio/words/cop.mp3) | /kɑːp/ | cup 嘴微开；cop 下巴往下落 |
 
 **C 组：/ʌ/ vs /ə/ 对比**（重读 vs 弱读）
 
 | # | /ʌ/ 词/音节 | IPA | VS | /ə/ 词/音节 | IPA | 区别感受 |
 |---|------------|-----|----|------------|-----|---------|
-| 1 | but（句末加重）[🔊](/courses/audio/words/but.mp3) | /bʌt/ | vs | about（第一音节）[🔊](/courses/audio/words/about.mp3) | /ə.ˈbaʊt/ | but 有力弹出；about 开头那个音可以几乎不发力 |
+| 1 | but（句末加重）[🔊](/audio/words/but.mp3) | /bʌt/ | vs | about（第一音节）[🔊](/audio/words/about.mp3) | /ə.ˈbaʊt/ | but 有力弹出；about 开头那个音可以几乎不发力 |
 
 ---
 
@@ -109,8 +109,8 @@ description: "美式英语单元音对比 · /ʌ/"
 **步骤：**
 1. 打开音频，先只听一遍，不出声，感受嘴张开的大小。
 2. 跟读以下材料，每词 / 每句**连续跟读 5 次**：
- - 核心词：cup [🔊](/courses/audio/words/cup.mp3) / but [🔊](/courses/audio/words/but.mp3) / sun [🔊](/courses/audio/words/sun.mp3) / love [🔊](/courses/audio/words/love.mp3) / cut [🔊](/courses/audio/words/cut.mp3)
- - 对比组：cut [🔊](/courses/audio/words/cut.mp3)–cot [🔊](/courses/audio/words/cot.mp3)，cup [🔊](/courses/audio/words/cup.mp3)–cop [🔊](/courses/audio/words/cop.mp3)
+ - 核心词：cup [🔊](/audio/words/cup.mp3) / but [🔊](/audio/words/but.mp3) / sun [🔊](/audio/words/sun.mp3) / love [🔊](/audio/words/love.mp3) / cut [🔊](/audio/words/cut.mp3)
+ - 对比组：cut [🔊](/audio/words/cut.mp3)–cot [🔊](/audio/words/cot.mp3)，cup [🔊](/audio/words/cup.mp3)–cop [🔊](/audio/words/cop.mp3)
  - 语流句 1、语流句 2
 3. 用手机录下自己读一遍语流句 1。
 4. 回放录音，只听一件事：**love / enough / but 这三个词，自己的嘴有没有开太大、下巴有没有砸下去？**
