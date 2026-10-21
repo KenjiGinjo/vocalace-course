@@ -9,6 +9,10 @@ const { title, lesson } = Astro.locals.starlightRoute.entry.data
 }
 <h1 id="_top">{title}</h1>
 
+<script>
+  import '../scripts/lesson-audio'
+</script>
+
 <style>
   @layer starlight.core {
     h1 {

@@ -114,7 +114,7 @@ header.header {
   color: var(--sl-color-gray-3);
 }
 
-/* Direct links to public/audio/words/*.mp3 */
+/* Direct links to public/audio/words/*.mp3 — click plays in-page (lesson-audio.ts) */
 .sl-markdown-content a[href*="/audio/words/"] {
   display: inline-flex;
   align-items: center;
@@ -123,10 +123,19 @@ header.header {
   border-radius: 0.35rem;
   text-decoration: none;
   color: var(--sl-color-accent-high);
+  cursor: pointer;
 }
 
 .sl-markdown-content a[href*="/audio/words/"]:hover {
   background: var(--sl-color-accent-low);
+}
+
+.sl-markdown-content a[href*="/audio/words/"].is-playing {
+  opacity: 0.55;
+}
+
+.sl-markdown-content a[href*="/audio/words/"].is-error {
+  color: var(--sl-color-red-high, #c44);
 }
 
 /* Display headings — Vocalace brand voice */
