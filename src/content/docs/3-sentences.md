@@ -1,6 +1,12 @@
 ---
 title: '三、句子朗读与语调控制'
 description: '三、句子朗读与语调控制 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

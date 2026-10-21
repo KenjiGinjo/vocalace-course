@@ -1,6 +1,12 @@
 ---
 title: '七、美式表达与搭配'
 description: '七、美式表达与搭配 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

@@ -1,7 +1,7 @@
 ---
 title: "/ɑː/ 开口不圆唇：hot, father, law, thought"
 lesson: "第 1.1.6 课"
-description: "美式英语单元音对比 · /ɑː/"
+description: "hot、father、law 嘴总撮圆？本课练美式 /ɑː/：大开口、不圆唇，含常见词与句子练习。"
 ---
 
 说 *hot* 被听成别的词？*father* 念起来怪怪的？

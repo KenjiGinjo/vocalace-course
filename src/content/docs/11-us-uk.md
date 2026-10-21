@@ -1,6 +1,12 @@
 ---
 title: '十一、英美差异意识'
 description: '十一、英美差异意识 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

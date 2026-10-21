@@ -1,7 +1,7 @@
 ---
 title: "嘴别夹太紧——/ʊ/ vs /uː/"
 lesson: "第 1.1.5 课"
-description: "美式英语单元音对比 · /ʊ/ vs /uː/"
+description: "book、look 被读成 boo-k？本课练美式 /ʊ/ 与 /uː/：松短 vs 紧长，含对比词与跟读。"
 ---
 
 中文没有 /ʊ/。普通话「乌」接近 /uː/——嘴唇撅圆且紧、拖得长。于是 book、look、good 常被读成接近 /uː/，像 "boo-k"。

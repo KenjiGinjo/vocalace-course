@@ -1,6 +1,12 @@
 ---
 title: '五、语法思维转换'
 description: '五、语法思维转换 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

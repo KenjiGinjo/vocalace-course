@@ -1,6 +1,12 @@
 ---
 title: '六、日常对话核心句型'
 description: '六、日常对话核心句型 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

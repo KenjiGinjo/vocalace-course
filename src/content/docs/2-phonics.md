@@ -1,6 +1,12 @@
 ---
 title: '二、单词拼读与记忆方法'
 description: '二、单词拼读与记忆方法 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

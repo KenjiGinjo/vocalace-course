@@ -1,6 +1,12 @@
 ---
 title: '十、发音流利度提升'
 description: '十、发音流利度提升 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

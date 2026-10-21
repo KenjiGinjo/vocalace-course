@@ -1,6 +1,12 @@
 ---
 title: '四、听力策略：听懂美式口语'
 description: '四、听力策略：听懂美式口语 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

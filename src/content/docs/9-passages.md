@@ -1,6 +1,12 @@
 ---
 title: '九、短文听说综合训练'
 description: '九、短文听说综合训练 · Vocalace 课程'
+pagefind: false
+head:
+  - tag: meta
+    attrs:
+      name: robots
+      content: noindex
 ---
 
 :::note[内容筹备中]

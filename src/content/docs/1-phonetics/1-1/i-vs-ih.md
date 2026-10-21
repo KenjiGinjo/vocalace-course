@@ -1,7 +1,7 @@
 ---
 title: "听懂\"ee\"和\"i\"的区别——不只是长短，是肌肉松紧"
 lesson: "第 1.1.1 课"
-description: "美式英语单元音对比 · /iː/ vs /ɪ/"
+description: "分不清 seat/sit、beach？本课练美式 /iː/ 与 /ɪ/：关键是嘴角松紧，不是单纯长短，含对比词与句子跟读。"
 ---
 
 点咖啡说 *"I need a seat"*，服务员以为是 *"I need to sit"*？跟朋友说 *"nice beach"*，场面突然微妙？

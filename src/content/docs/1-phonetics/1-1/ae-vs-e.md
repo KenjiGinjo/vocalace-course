@@ -1,7 +1,7 @@
 ---
 title: "/æ/ vs /e/：张嘴差一指，意思差十万八千里"
 lesson: "第 1.1.2 课"
-description: "美式英语单元音对比 · /æ/ vs /e/"
+description: "分不清 bad/bed、man/men？本课用口型对照练美式 /æ/ 与 /e/：一张嘴差一指，含对比词与句子跟读。"
 ---
 
 点餐要 **napkin**，对方没反应——你发的像 /ˈnɛpkɪn/？说 **"I slept in a bad"**，对方愣一秒才听懂你是 bed？
