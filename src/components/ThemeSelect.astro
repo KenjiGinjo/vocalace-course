@@ -1,0 +1,171 @@
+---
+/**
+ * Light / dark switch with sun & moon icons
+ * (replaces Starlight’s Dark · Light · Auto select).
+ */
+---
+
+<starlight-theme-select>
+	<button
+		type="button"
+		class="theme-switch"
+		role="switch"
+		aria-checked="false"
+		aria-label="深色模式"
+	>
+		<span class="theme-switch__track" aria-hidden="true">
+			<span class="theme-switch__slot">
+				<svg class="theme-switch__icon theme-switch__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<circle cx="12" cy="12" r="4" />
+					<path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+				</svg>
+			</span>
+			<span class="theme-switch__slot">
+				<svg class="theme-switch__icon theme-switch__icon--moon" viewBox="0 0 24 24" fill="currentColor">
+					<path d="M21 14.3A9 9 0 0 1 9.7 3a7.2 7.2 0 1 0 11.3 11.3Z" />
+				</svg>
+			</span>
+			<span class="theme-switch__thumb"></span>
+		</span>
+	</button>
+</starlight-theme-select>
+
+<script is:inline>
+	StarlightThemeProvider.updatePickers();
+</script>
+
+<script>
+	type Theme = 'dark' | 'light'
+
+	const storageKey = 'starlight-theme'
+
+	const loadTheme = (): Theme => {
+		if (typeof localStorage === 'undefined') {
+			return 'light'
+		}
+		const stored = localStorage.getItem(storageKey)
+		if (stored === 'dark' || stored === 'light') {
+			return stored
+		}
+		return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+	}
+
+	function applyTheme(theme: Theme) {
+		document.documentElement.dataset.theme = theme
+		localStorage.setItem(storageKey, theme)
+		document.querySelectorAll('starlight-theme-select .theme-switch').forEach((el) => {
+			if (el instanceof HTMLButtonElement) {
+				el.setAttribute('aria-checked', theme === 'dark' ? 'true' : 'false')
+				el.setAttribute('aria-label', theme === 'dark' ? '切换到浅色模式' : '切换到深色模式')
+			}
+		})
+		StarlightThemeProvider.updatePickers(theme)
+	}
+
+	class StarlightThemeSelect extends HTMLElement {
+		constructor() {
+			super()
+			applyTheme(loadTheme())
+			this.querySelector('.theme-switch')?.addEventListener('click', () => {
+				applyTheme(loadTheme() === 'dark' ? 'light' : 'dark')
+			})
+		}
+	}
+
+	if (!customElements.get('starlight-theme-select')) {
+		customElements.define('starlight-theme-select', StarlightThemeSelect)
+	}
+</script>
+
+<style>
+	.theme-switch {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-inline: 0.1rem;
+		padding: 0.25rem;
+		border: 0;
+		background: transparent;
+		cursor: pointer;
+		border-radius: 999px;
+		line-height: 0;
+	}
+
+	.theme-switch:focus-visible {
+		outline: 2px solid var(--sl-color-accent);
+		outline-offset: 2px;
+	}
+
+	.theme-switch__track {
+		--pad: 3px;
+		position: relative;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: stretch;
+		width: 3.75rem;
+		height: 2rem;
+		padding: var(--pad);
+		border-radius: 999px;
+		background: oklch(0.9 0.018 80);
+		box-sizing: border-box;
+		transition: background 0.18s ease;
+	}
+
+	:root[data-theme='dark'] .theme-switch__track {
+		background: oklch(0.3 0.04 185);
+	}
+
+	.theme-switch__slot {
+		position: relative;
+		z-index: 1;
+		display: grid;
+		place-items: center;
+		pointer-events: none;
+	}
+
+	.theme-switch__icon {
+		display: block;
+		width: 0.95rem;
+		height: 0.95rem;
+		transition: opacity 0.18s ease, color 0.18s ease;
+	}
+
+	.theme-switch__icon--sun {
+		color: oklch(0.55 0.1 85);
+		opacity: 1;
+	}
+
+	.theme-switch__icon--moon {
+		color: oklch(0.55 0.02 250);
+		opacity: 0.4;
+	}
+
+	.theme-switch[aria-checked='true'] .theme-switch__icon--sun {
+		opacity: 0.4;
+		color: oklch(0.86 0.06 185);
+	}
+
+	.theme-switch[aria-checked='true'] .theme-switch__icon--moon {
+		opacity: 1;
+		color: oklch(0.95 0.01 82);
+	}
+
+	.theme-switch__thumb {
+		position: absolute;
+		top: var(--pad);
+		left: var(--pad);
+		z-index: 0;
+		width: calc(50% - var(--pad));
+		height: calc(100% - var(--pad) * 2);
+		border-radius: 999px;
+		background: oklch(1 0 0);
+		box-shadow: 0 1px 3px oklch(0.24 0.02 50 / 0.18);
+		transition: transform 0.2s ease;
+	}
+
+	.theme-switch[aria-checked='true'] .theme-switch__thumb {
+		transform: translateX(100%);
+		background: oklch(0.24 0.016 55);
+		box-shadow: 0 1px 3px oklch(0 0 0 / 0.35);
+	}
+</style>

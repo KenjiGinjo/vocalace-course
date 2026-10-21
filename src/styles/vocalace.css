@@ -1,0 +1,215 @@
+/*
+  Align Starlight with Vocalace web tokens
+  (app/web/src/style/index.css — teal primary + warm neutrals).
+*/
+
+:root,
+::backdrop {
+  --sl-font: ui-sans-serif, system-ui, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC',
+    'Microsoft YaHei', sans-serif;
+  --sl-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  --vocalace-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Songti SC',
+    'Noto Serif SC', 'Source Han Serif SC', serif;
+
+  /* Dark — match web .dark */
+  --sl-color-white: oklch(0.95 0.01 82);
+  --sl-color-gray-1: oklch(0.9 0.012 80);
+  --sl-color-gray-2: oklch(0.78 0.02 70);
+  --sl-color-gray-3: oklch(0.62 0.02 60);
+  --sl-color-gray-4: oklch(0.42 0.018 55);
+  --sl-color-gray-5: oklch(0.3 0.016 55);
+  --sl-color-gray-6: oklch(0.24 0.016 55);
+  --sl-color-black: oklch(0.2 0.015 55);
+
+  --sl-color-accent-low: oklch(0.3 0.04 185);
+  --sl-color-accent: oklch(0.75 0.1 185);
+  --sl-color-accent-high: oklch(0.86 0.06 185);
+
+  --sl-shadow-sm: 0 1px 2px oklch(0.2 0.02 55 / 0.2);
+  --sl-shadow-md: 0 4px 16px oklch(0.2 0.02 55 / 0.22);
+  --sl-shadow-lg: 0 12px 32px oklch(0.2 0.02 55 / 0.28);
+
+  --sl-content-width: 44rem;
+  --sl-line-height: 1.75;
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  /* Light — match web :root */
+  --sl-color-white: oklch(0.24 0.02 50);
+  --sl-color-gray-1: oklch(0.28 0.02 50);
+  --sl-color-gray-2: oklch(0.36 0.02 50);
+  --sl-color-gray-3: oklch(0.5 0.02 60);
+  --sl-color-gray-4: oklch(0.7 0.018 70);
+  --sl-color-gray-5: oklch(0.86 0.016 80);
+  --sl-color-gray-6: oklch(0.94 0.014 82);
+  --sl-color-gray-7: oklch(0.975 0.01 85);
+  --sl-color-black: oklch(1 0 0);
+
+  --sl-color-accent-high: oklch(0.32 0.05 185);
+  --sl-color-accent: oklch(0.45 0.09 185);
+  --sl-color-accent-low: oklch(0.93 0.03 185);
+
+  --sl-color-bg-nav: oklch(1 0 0 / 0.72);
+  --sl-color-bg-sidebar: oklch(1 0 0);
+  --sl-color-hairline-light: oklch(0.9 0.018 80);
+  --sl-color-hairline: oklch(0.9 0.018 80);
+  --sl-color-hairline-shade: oklch(0.9 0.018 80);
+  --sl-color-bg-inline-code: oklch(0.94 0.014 82);
+
+  --sl-shadow-sm: 0 1px 2px oklch(0.24 0.02 50 / 0.04);
+  --sl-shadow-md: 0 4px 16px oklch(0.24 0.02 50 / 0.06);
+  --sl-shadow-lg: 0 12px 28px oklch(0.24 0.02 50 / 0.08);
+}
+
+/* Header: frosted bar like main site */
+header.header {
+  border-bottom: 1px solid oklch(0.9 0.018 80 / 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+:root[data-theme='dark'] header.header {
+  border-bottom-color: oklch(1 0 0 / 0.08);
+}
+
+/* Lesson number above page title */
+.lesson-label {
+  margin: 1rem 0 0;
+  font-size: var(--sl-text-sm);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--sl-color-gray-3);
+}
+
+/* Vocabulary demo audio (GET /vocabulary/audio?word=) */
+.audio-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 0.15em;
+  padding: 0.1em 0.25em;
+  border: 0;
+  border-radius: 0.35rem;
+  background: transparent;
+  color: var(--sl-color-accent-high);
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: baseline;
+}
+
+.audio-play:hover {
+  background: var(--sl-color-accent-low);
+}
+
+.audio-play:focus-visible {
+  outline: 2px solid var(--sl-color-accent);
+  outline-offset: 2px;
+}
+
+.audio-play.is-loading,
+.audio-play.is-playing {
+  opacity: 0.55;
+}
+
+.audio-play:disabled {
+  cursor: wait;
+}
+
+/* Display headings — Vocalace brand voice */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+h1#_top,
+.hero > .sl-flex > .copy > h1,
+.page-title {
+  font-family: var(--vocalace-display);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.sl-markdown-content h1,
+h1#_top,
+.page-title {
+  font-weight: 500;
+}
+
+/* Body: calmer weight & spacing */
+.sl-markdown-content {
+  color: var(--sl-color-gray-2);
+}
+
+.sl-markdown-content a:not(:where(.not-content *)) {
+  text-underline-offset: 0.18em;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+  font-size: var(--sl-text-sm);
+}
+
+.sl-markdown-content th:not(:where(.not-content *)),
+.sl-markdown-content td:not(:where(.not-content *)) {
+  border-color: var(--sl-color-hairline-light);
+}
+
+.sl-markdown-content blockquote:not(:where(.not-content *)) {
+  border-inline-start-color: var(--sl-color-accent);
+  color: var(--sl-color-gray-3);
+}
+
+/* Sidebar: light active chip */
+.sidebar-content a[aria-current='page'],
+.sidebar-content [aria-current='page'] {
+  font-weight: 600;
+}
+
+/* Cards / splash — less chrome */
+.card,
+.card-grid > .card,
+starlight-card {
+  border-radius: 0.625rem;
+  box-shadow: none;
+}
+
+.hero {
+  --sl-hero-padding: 2.5rem 0 1.5rem;
+}
+
+.hero > .sl-flex > .copy > .tagline {
+  color: var(--sl-color-gray-3);
+  max-width: 36rem;
+  font-size: var(--sl-text-lg);
+  line-height: 1.65;
+}
+
+/* Soften asides to match muted teal */
+.starlight-aside--note {
+  --sl-color-asides-text-accent: var(--sl-color-accent-high);
+  --sl-color-asides-border: var(--sl-color-accent);
+  background-color: var(--sl-color-accent-low);
+}
+
+:root[data-theme='light'] .starlight-aside--note {
+  background-color: oklch(0.96 0.02 185);
+}
+
+/* Site title */
+.site-title {
+  font-family: var(--vocalace-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* CTAs: match web radius, not full pills */
+.sl-flex .action,
+.hero .action,
+.hero .actions a {
+  border-radius: 0.625rem;
+}
+
+/* Header ad slot sits in .social-icons — keep divider, tighten gap */
+.social-icons {
+  gap: 0.75rem;
+}

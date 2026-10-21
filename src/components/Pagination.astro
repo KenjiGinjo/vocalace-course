@@ -1,0 +1,75 @@
+---
+/**
+ * Lighter prev/next (VitePress / Nextra style): side-by-side, no card chrome.
+ */
+import { Icon } from '@astrojs/starlight/components'
+
+const { dir, pagination } = Astro.locals.starlightRoute
+const { prev, next } = pagination
+const isRtl = dir === 'rtl'
+---
+
+{(prev || next) && (
+	<nav class="pager print:hidden" dir={dir} aria-label="上下课">
+		{prev
+			? (
+					<a class="pager__link pager__link--prev" href={prev.href} rel="prev" title={prev.label}>
+						<Icon name={isRtl ? 'right-arrow' : 'left-arrow'} size="1rem" />
+						<span>上一课</span>
+					</a>
+				)
+			: <span class="pager__spacer" />}
+		{next
+			? (
+					<a class="pager__link pager__link--next" href={next.href} rel="next" title={next.label}>
+						<span>下一课</span>
+						<Icon name={isRtl ? 'left-arrow' : 'right-arrow'} size="1rem" />
+					</a>
+				)
+			: <span class="pager__spacer" />}
+	</nav>
+)}
+
+<style>
+	.pager {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.75rem 1.25rem;
+		margin-top: 0.5rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--sl-color-hairline-light);
+	}
+
+	.pager__link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		padding: 0.35rem 0;
+		font-size: 0.9rem;
+		font-weight: 500;
+		text-decoration: none;
+		color: var(--sl-color-gray-2);
+		transition: color 0.15s ease;
+	}
+
+	.pager__link:hover {
+		color: var(--sl-color-accent);
+	}
+
+	.pager__link--next {
+		justify-self: end;
+	}
+
+	.pager__link :global(svg) {
+		flex-shrink: 0;
+		opacity: 0.55;
+	}
+
+	.pager__link:hover :global(svg) {
+		opacity: 1;
+	}
+
+	.pager__spacer {
+		display: block;
+	}
+</style>
