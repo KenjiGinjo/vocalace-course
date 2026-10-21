@@ -108,7 +108,7 @@ bad [🔊](/audio/words/bad.mp3) / bod [🔊](/audio/words/bod.mp3)　　cap [�
 
 > *"Can you grab a map? My car is parked past that black box."*
 
-参考：/æ/ → can, grab, map, that, black；/ɑː/ → car, parked, past, box。
+参考：/æ/ → can, grab, map, past, that, black；/ɑː/ → box。（car、parked 是 /ɑːr/，本课不计入）
 
 ## 自检
 
