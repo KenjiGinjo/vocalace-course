@@ -114,6 +114,21 @@ header.header {
   color: var(--sl-color-gray-3);
 }
 
+/* Direct links to public/audio/words/*.mp3 */
+.sl-markdown-content a[href*="/audio/words/"] {
+  display: inline-flex;
+  align-items: center;
+  margin-inline: 0.15em;
+  padding: 0.05em 0.2em;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  color: var(--sl-color-accent-high);
+}
+
+.sl-markdown-content a[href*="/audio/words/"]:hover {
+  background: var(--sl-color-accent-low);
+}
+
 /* Display headings — Vocalace brand voice */
 .sl-markdown-content h1,
 .sl-markdown-content h2,

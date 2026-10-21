@@ -43,12 +43,12 @@ description: "美式英语单元音对比 · /ɑː/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|---|---|---|---|
-| 1 | hot | /hɑːt/ 🔊[A-01] | /hoʊt/（像 hote）或圆唇「哦t」 | 下巴落下、嘴唇不要动，直接发 |
-| 2 | father | /ˈfɑː.ðɚ/ 🔊[A-02] | /ˈfoʊ.ðɚ/（fo-ther） | 第一个音节同 *hot*，大开口、不圆 |
-| 3 | law | /lɑː/ 🔊[A-03] | /lɔːr/（像 *lore*）或/loʊ/ | 嘴唇不要圆；收尾不要加卷舌 |
-| 4 | thought | /θɑːt/ 🔊[A-04] | /θoʊt/（like *throat* 的感觉）| 美式 *thought* 嘴唇不圆——这和英式不同 |
-| 5 | caught | /kɑːt/ 🔊[A-05] | /koʊt/（像 *coat*） | 与 *cot* /kɑːt/ 同音！嘴巴大开 |
-| 6 | cot | /kɑːt/ 🔊[A-06] | /koʊt/ | 美式 cot = caught，同一个 /ɑː/ |
+| 1 | hot | /hɑːt/ [🔊](/courses/audio/words/hot.mp3) | /hoʊt/（像 hote）或圆唇「哦t」 | 下巴落下、嘴唇不要动，直接发 |
+| 2 | father | /ˈfɑː.ðɚ/ [🔊](/courses/audio/words/father.mp3) | /ˈfoʊ.ðɚ/（fo-ther） | 第一个音节同 *hot*，大开口、不圆 |
+| 3 | law | /lɑː/ [🔊](/courses/audio/words/law.mp3) | /lɔːr/（像 *lore*）或/loʊ/ | 嘴唇不要圆；收尾不要加卷舌 |
+| 4 | thought | /θɑːt/ [🔊](/courses/audio/words/thought.mp3) | /θoʊt/（like *throat* 的感觉）| 美式 *thought* 嘴唇不圆——这和英式不同 |
+| 5 | caught | /kɑːt/ [🔊](/courses/audio/words/caught.mp3) | /koʊt/（像 *coat*） | 与 *cot* /kɑːt/ 同音！嘴巴大开 |
+| 6 | cot | /kɑːt/ [🔊](/courses/audio/words/cot.mp3) | /koʊt/ | 美式 cot = caught，同一个 /ɑː/ |
 
 > **补充说明：** 美式英语里 *caught* 和 *cot* 大多数人发音完全相同（Cot-Caught 合并），都是 /kɑːt/，这不是你听错了，是美式语音特征。
 
@@ -57,7 +57,7 @@ description: "美式英语单元音对比 · /ɑː/"
 ### 2.3 语流句
 
 **句 1：**
-🔊[A-07]
+
 > **Hot** coffee and **law** school — **father** thought it was a lot.
 
 中文意思：热咖啡和法学院——父亲认为这挺多的。
@@ -66,7 +66,7 @@ description: "美式英语单元音对比 · /ɑː/"
 跟读提示：每个加粗词都要检查——嘴唇有没有圆？
 
 **句 2：**
-🔊[A-08]
+
 > The **cop** caught the dog near the **park**.
 
 中文意思：警察在公园附近抓住了那只狗。
@@ -97,7 +97,7 @@ description: "美式英语单元音对比 · /ɑː/"
 ### 练习 A｜跟读（必做，约 4 分钟）
 
 **步骤：**
-1. 播放 🔊[A-01] 到 🔊[A-06] 每个词的示范音频，先只听，不跟读。
+1. 播放 到 每个词的示范音频，先只听，不跟读。
 2. 对着镜子，确认镜中的嘴唇在听示范时和你预期的「哦」有何不同。
 3. 跟读每个词 ×5 次，每次之后停顿 1 秒自检嘴唇是否圆了。
 4. 用手机录音跟读一轮（6 个词连续读），不要停顿太久。
@@ -111,7 +111,7 @@ description: "美式英语单元音对比 · /ɑː/"
 
 **指定练习词（5 个）：**
 
-🔊[A-01] hot　｜　🔊[A-03] law　｜　🔊[A-04] thought　｜　🔊[A-05] caught　｜　🔊[A-02] father
+hot [🔊](/courses/audio/words/hot.mp3)　｜　law [🔊](/courses/audio/words/law.mp3)　｜　thought [🔊](/courses/audio/words/thought.mp3)　｜　caught [🔊](/courses/audio/words/caught.mp3)　｜　father [🔊](/courses/audio/words/father.mp3)
 
 **操作流程：**
 1. 选第一个词 *hot*，播放示范音频。

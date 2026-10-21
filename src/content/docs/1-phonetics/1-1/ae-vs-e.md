@@ -61,11 +61,11 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 | # | 目标词（/æ/） | IPA | 对比词（/e/） | IPA | 一句话纠正 |
 |---|--------------|-----|--------------|-----|-----------|
-| 1 | bad 🔊[A-01] | /bæd/ | bed 🔊[A-02] | /bɛd/ | 说 bad 时下巴要往下掉，说 bed 不用 |
-| 2 | man 🔊[A-03] | /mæn/ | men 🔊[A-04] | /mɛn/ | 说 man 时嘴角要拉到发酸，men 不需要 |
-| 3 | cat 🔊[A-05] | /kæt/ | — | — | 独练：/k/ 弹出后立刻把下巴砸下去 |
-| 4 | bag 🔊[A-06] | /bæɡ/ | beg 🔊[A-07] | /bɛɡ/ | bag 里的 /æ/ 拖长半拍，beg 短促 |
-| 5 | land 🔊[A-08] | /lænd/ | lend 🔊[A-09] | /lɛnd/ | land 是土地，lend 是借出——张嘴幅度决定意思 |
+| 1 | bad [🔊](/courses/audio/words/bad.mp3) | /bæd/ | bed [🔊](/courses/audio/words/bed.mp3) | /bɛd/ | 说 bad 时下巴要往下掉，说 bed 不用 |
+| 2 | man [🔊](/courses/audio/words/man.mp3) | /mæn/ | men [🔊](/courses/audio/words/men.mp3) | /mɛn/ | 说 man 时嘴角要拉到发酸，men 不需要 |
+| 3 | cat [🔊](/courses/audio/words/cat.mp3) | /kæt/ | — | — | 独练：/k/ 弹出后立刻把下巴砸下去 |
+| 4 | bag [🔊](/courses/audio/words/bag.mp3) | /bæɡ/ | beg [🔊](/courses/audio/words/beg.mp3) | /bɛɡ/ | bag 里的 /æ/ 拖长半拍，beg 短促 |
+| 5 | land [🔊](/courses/audio/words/land.mp3) | /lænd/ | lend [🔊](/courses/audio/words/lend.mp3) | /lɛnd/ | land 是土地，lend 是借出——张嘴幅度决定意思 |
 
 > **cat 单独列出**是因为 /k/ 是爆破音，中文母语者发完 /k/ 后常常「来不及」把嘴张开，/æ/ 就缩成了 /e/。专门练习「先准备好张开的嘴型，再发 /k/」。
 
@@ -73,7 +73,7 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 ### 2.3 语流句
 
-**句 1：** 🔊[A-10]  
+**句 1：** 
 > **That bad** habit can **damage** your **plans**.  
 > /ðæt **bæd** ˈhæbɪt kən **dæmɪdʒ** jɚ **plænz**/  
 > 那个坏习惯可能会毁掉你的计划。  
@@ -82,7 +82,7 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 ---
 
-**句 2：** 🔊[A-11]  
+**句 2：** 
 > **Tell the men** to **check** the **beds**.  
 > /tɛl ðə **mɛn** tə **tʃɛk** ðə **bɛdz**/  
 > 叫那些男人去检查床铺。  
@@ -116,7 +116,7 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 ### 练习 A｜跟读（必做，约 4 分钟）
 
 **步骤：**
-1. 播放示范音频 🔊[A-01]～[A-09]（对比词组），跟读 ×1，只听，不管对不对
+1. 播放示范音频（对比词组），跟读 ×1，只听，不管对不对
 2. 对照镜子，确认 /æ/ 时**下巴真的在掉**，再跟读 ×3
 3. 拿手机录下你读完整对比表的一遍
 4. 回放录音，逐行对照示范音频：找到你觉得"和示范不一样"的那一行，记下来
@@ -127,12 +127,12 @@ description: "美式英语单元音对比 · /æ/ vs /e/"
 
 ### 练习 B｜对比纠音（必做，约 4 分钟）
 
-**指定练习词：** bad / bed / man / men / cat 🔊[A-01][A-02][A-03][A-04][A-05]
+**指定练习词：** bad [🔊](/courses/audio/words/bad.mp3) / bed [🔊](/courses/audio/words/bed.mp3) / man [🔊](/courses/audio/words/man.mp3) / men [🔊](/courses/audio/words/men.mp3) / cat [🔊](/courses/audio/words/cat.mp3)
 
 **操作流程：**
 1. 选 **bad**，对着镜子检查：嘴角横展了吗？下巴落下来了吗？
 2. 录音只读这一个词
-3. 立刻回放，和 🔊[A-01] 对比——只判断「开口够不够大」这一件事
+3. 立刻回放，和 对比——只判断「开口够不够大」这一件事
 4. 如果不够，**只调整下巴幅度**，再录一遍
 5. 一个词改完再换下一个；不要同时改两件事
 

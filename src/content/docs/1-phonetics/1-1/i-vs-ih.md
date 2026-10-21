@@ -44,11 +44,11 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 | # | /iː/ 目标音 | IPA | /ɪ/ 目标音 | IPA | 一句话纠正 |
 |---|------------|-----|-----------|-----|-----------|
-| 1 | see | /siː/ 🔊[A-01] | sit | /sɪt/ 🔊[A-02] | 发 *see* 时嘴角向外扯到能感觉颧肌收紧；发 *sit* 时嘴角立刻松开 |
-| 2 | sheep | /ʃiːp/ 🔊[A-03] | ship | /ʃɪp/ 🔊[A-04] | 两词只差嘴角松紧，辅音 /ʃ/ 和 /p/ 相同，如果听感不对，先单独换元音 |
-| 3 | tea | /tiː/ 🔊[A-05] | six | /sɪks/ 🔊[A-06] | *tea* 嘴角用力维持到 /t/ 收音；*six* 嘴角从一开始就放松，不要在词尾才松 |
-| 4 | seat | /siːt/ 🔊[A-07] | sit | /sɪt/ 🔊[A-08] | 经典混淆对：嘴角有没有绷紧就是两个不同的词 |
-| 5 | beach | /biːtʃ/ 🔊[A-09] | bitch | /bɪtʃ/ 🔊[A-10] | 提示：这一对发错在英语里后果很严重——务必练到嘴角的松紧绝对可控 |
+| 1 | see | /siː/ [🔊](/courses/audio/words/see.mp3) | sit | /sɪt/ [🔊](/courses/audio/words/sit.mp3) | 发 *see* 时嘴角向外扯到能感觉颧肌收紧；发 *sit* 时嘴角立刻松开 |
+| 2 | sheep | /ʃiːp/ [🔊](/courses/audio/words/sheep.mp3) | ship | /ʃɪp/ [🔊](/courses/audio/words/ship.mp3) | 两词只差嘴角松紧，辅音 /ʃ/ 和 /p/ 相同，如果听感不对，先单独换元音 |
+| 3 | tea | /tiː/ [🔊](/courses/audio/words/tea.mp3) | six | /sɪks/ [🔊](/courses/audio/words/six.mp3) | *tea* 嘴角用力维持到 /t/ 收音；*six* 嘴角从一开始就放松，不要在词尾才松 |
+| 4 | seat | /siːt/ [🔊](/courses/audio/words/seat.mp3) | sit | /sɪt/ [🔊](/courses/audio/words/sit.mp3) | 经典混淆对：嘴角有没有绷紧就是两个不同的词 |
+| 5 | beach | /biːtʃ/ [🔊](/courses/audio/words/beach.mp3) | bitch | /bɪtʃ/ [🔊](/courses/audio/words/bitch.mp3) | 提示：这一对发错在英语里后果很严重——务必练到嘴角的松紧绝对可控 |
 
 > ⚠️ **第 5 组刻意放进来**：这是中文母语者最常在无意识中说错且影响最大的词对。不是要吓你，是让你有动力把这组练扎实。
 
@@ -57,7 +57,7 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 ### 2.3 语流句（放进自然句子里）
 
 **句 1：**
-🔊[A-11]
+
 > **"She** needs a **seat** near the **beach**."
 > /ʃiː niːdz ə siːt nɪɹ ðə biːtʃ/
 >
@@ -66,7 +66,7 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 > 注意：*She / needs / seat / beach* 四个词都含 /iː/，全程嘴角保持紧张状态。**加粗**词为句子主要重音落点。
 
 **句 2：**
-🔊[A-12]
+
 > "**This ship** is **big**."
 > /ðɪs ʃɪp ɪz bɪɡ/
 >
@@ -111,11 +111,11 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 **指定练习词（逐词单独录）：**
 
-1. `see` vs `sit` 🔊[A-01] 🔊[A-02]
-2. `sheep` vs `ship` 🔊[A-03] 🔊[A-04]
-3. `seat` vs `sit` 🔊[A-07] 🔊[A-08]
-4. `beach` vs `bitch` 🔊[A-09] 🔊[A-10]
-5. `tea` — 单独录 🔊[A-05]，`six` — 单独录 🔊[A-06]
+1. `see` [🔊](/courses/audio/words/see.mp3) vs `sit` [🔊](/courses/audio/words/sit.mp3)
+2. `sheep` [🔊](/courses/audio/words/sheep.mp3) vs `ship` [🔊](/courses/audio/words/ship.mp3)
+3. `seat` [🔊](/courses/audio/words/seat.mp3) vs `sit` [🔊](/courses/audio/words/sit.mp3)
+4. `beach` [🔊](/courses/audio/words/beach.mp3) vs `bitch` [🔊](/courses/audio/words/bitch.mp3)
+5. `tea` [🔊](/courses/audio/words/tea.mp3)，`six` [🔊](/courses/audio/words/six.mp3)
 
 **操作流程：**
 - 先录 /iː/ 那个词 → 立刻回放 → 对照示范音频 → 问自己「嘴角那次有没有绷？」
@@ -180,7 +180,7 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 **题 1｜辨音选择**
 
-你听到以下音频片段 🔊[A-07] 🔊[A-08]，哪一个是 *seat*，哪一个是 *sit*？
+你听到以下音频片段 ，哪一个是 *seat*，哪一个是 *sit*？
 > A = 第一个片段　　B = 第二个片段
 
 > （提示：听嘴角是否绷紧；/iː/ 听感更「亮」、更「锐」）
@@ -193,7 +193,7 @@ description: "美式英语单元音对比 · /iː/ vs /ɪ/"
 
 大声朗读以下句子，完成后用手机录音回听：
 
-> 🔊[A-11] *"She needs a seat near the beach."*
+> *"She needs a seat near the beach."*
 
 自检问题：
 - *She / needs / seat / beach* 这四个词，我的嘴角在每个词上都有绷紧吗？

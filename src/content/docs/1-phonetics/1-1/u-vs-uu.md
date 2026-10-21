@@ -45,27 +45,27 @@ description: "美式英语单元音对比 · /ʊ/ vs /uː/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|---|---|---|---|
-| 1 | **book** 🔊[A-01] | /bʊk/ | /buːk/ | 嘴唇不要向前撅，音发完立刻收 |
-| 2 | **look** 🔊[A-02] | /lʊk/ | /luːk/ | "l" 出来之后嘴立刻松开，不要停在圆唇状态 |
-| 3 | **good** 🔊[A-03] | /ɡʊd/ | /ɡuːd/ | /ʊ/ 结束前 "d" 已经在路上了，音很短 |
-| 4 | **food** 🔊[A-04] | /fuːd/ | — | 这个就是「乌」感：主动撅嘴，拉长 |
-| 5 | **too** 🔊[A-05] | /tuː/ | — | 闪音 /t̬/ 之后紧接撅嘴长音 |
-| 6 | **blue** 🔊[A-06] | /bluː/ | — | /l/ 结束后嘴继续收圆送出 /uː/ |
+| 1 | **book** [🔊](/courses/audio/words/book.mp3) | /bʊk/ | /buːk/ | 嘴唇不要向前撅，音发完立刻收 |
+| 2 | **look** [🔊](/courses/audio/words/look.mp3) | /lʊk/ | /luːk/ | "l" 出来之后嘴立刻松开，不要停在圆唇状态 |
+| 3 | **good** [🔊](/courses/audio/words/good.mp3) | /ɡʊd/ | /ɡuːd/ | /ʊ/ 结束前 "d" 已经在路上了，音很短 |
+| 4 | **food** [🔊](/courses/audio/words/food.mp3) | /fuːd/ | — | 这个就是「乌」感：主动撅嘴，拉长 |
+| 5 | **too** [🔊](/courses/audio/words/too.mp3) | /tuː/ | — | 闪音 /t̬/ 之后紧接撅嘴长音 |
+| 6 | **blue** [🔊](/courses/audio/words/blue.mp3) | /bluː/ | — | /l/ 结束后嘴继续收圆送出 /uː/ |
 
 **对比组（最小对立）：**
 
 | 对比 | 音频 | 提示 |
 |---|---|---|
-| book /bʊk/ vs food /fuːd/ | 🔊[A-07] | 同是后高元音，一个松短，一个紧长 |
-| look /lʊk/ vs too /tuː/ | 🔊[A-08] | 感受 /ʊ/ 的「即停感」 |
-| good /ɡʊd/ vs blue /bluː/ | 🔊[A-09] | /ʊ/ 后面有辅音压着，更容易截断 |
+| book /bʊk/ vs food /fuːd/ | [🔊](/courses/audio/words/book.mp3) [🔊](/courses/audio/words/food.mp3) | 同是后高元音，一个松短，一个紧长 |
+| look /lʊk/ vs too /tuː/ | [🔊](/courses/audio/words/look.mp3) [🔊](/courses/audio/words/too.mp3) | 感受 /ʊ/ 的「即停感」 |
+| good /ɡʊd/ vs blue /bluː/ | [🔊](/courses/audio/words/good.mp3) [🔊](/courses/audio/words/blue.mp3) | /ʊ/ 后面有辅音压着，更容易截断 |
 
 ---
 
 ### 2.3 语流句
 
 **句 1：**
-🔊[A-10]
+
 > **Look** at this **good book** about **food**.
 > /lʊk æt ðɪs ɡʊd bʊk əˈbaʊt fuːd/
 
@@ -76,7 +76,7 @@ description: "美式英语单元音对比 · /ʊ/ vs /uː/"
 ---
 
 **句 2：**
-🔊[A-11]
+
 > It's **too** cold — I need a **good** jacket, **too**.
 > /ɪts tuː koʊld — aɪ niːd ə ɡʊd ˈdʒækɪt tuː/
 
@@ -107,9 +107,9 @@ description: "美式英语单元音对比 · /ʊ/ vs /uː/"
 ### 练习 A｜跟读（必做）
 
 **步骤：**
-1. 播放示范音频 🔊[A-07] ~ 🔊[A-09]（三组对比），只听，不开口，感受松紧差异。
+1. 播放示范音频 ~ （三组对比），只听，不开口，感受松紧差异。
 2. 逐组跟读 × 5 遍：先读 /ʊ/ 词，再读 /uː/ 词，感受嘴唇状态切换。
-3. 用手机录音，完整读一遍语流句 🔊[A-10]。
+3. 用手机录音，完整读一遍语流句 。
 4. 回听：找自己读的 look / good / book——嘴唇有没有不必要的圆唇用力感？
 
 **通过标准：** 回听时，自己能指出 book 是否仍然被拉长（对应错误 1），或圆唇是否过重（对应错误 2）。

@@ -43,24 +43,24 @@ description: "美式英语单元音对比 · /ʌ/"
 
 | # | 目标词 | IPA | 易错读成 | 一句话纠正 |
 |---|--------|-----|---------|-----------|
-| 1 | cup | /kʌp/ | /kɑːp/（嘴开太大） | 嘴只开到一指宽，短促弹出 🔊[A-01] |
-| 2 | but | /bʌt/ | /bɑːt/ 或 /bət/（太轻） | 这是重读音节，要有力，别塌 🔊[A-02] |
-| 3 | sun | /sʌn/ | /sɑːn/ | 舌头别往后推；嘴不用张大 🔊[A-03] |
-| 4 | love | /lʌv/ | /lɑːv/ 或 /loʊv/（当成 live/leave） | /ʌ/ 短弹，不要拉长；不是 /oʊ/ 🔊[A-04] |
-| 5 | cut | /kʌt/ | /kɑːt/ | 和 cup 同口型，换个尾音 🔊[A-05] |
+| 1 | cup [🔊](/courses/audio/words/cup.mp3) | /kʌp/ | /kɑːp/（嘴开太大） | 嘴只开到一指宽，短促弹出 |
+| 2 | but [🔊](/courses/audio/words/but.mp3) | /bʌt/ | /bɑːt/ 或 /bət/（太轻） | 这是重读音节，要有力，别塌 |
+| 3 | sun [🔊](/courses/audio/words/sun.mp3) | /sʌn/ | /sɑːn/ | 舌头别往后推；嘴不用张大 |
+| 4 | love [🔊](/courses/audio/words/love.mp3) | /lʌv/ | /lɑːv/ 或 /loʊv/（当成 live/leave） | /ʌ/ 短弹，不要拉长；不是 /oʊ/ |
+| 5 | cut [🔊](/courses/audio/words/cut.mp3) | /kʌt/ | /kɑːt/ | 和 cup 同口型，换个尾音 |
 
 **B 组：对比词对**（听出两者差异）
 
 | # | /ʌ/ 词 | IPA | VS | /ɑː/ 词 | IPA | 区别感受 |
 |---|--------|-----|----|---------|-----|---------|
-| 1 | cut 🔊[A-06] | /kʌt/ | vs | cot 🔊[A-07] | /kɑːt/ | cut 嘴小力弹；cot 嘴开到底且更长 |
-| 2 | cup 🔊[A-08] | /kʌp/ | vs | cop 🔊[A-09] | /kɑːp/ | cup 嘴微开；cop 下巴往下落 |
+| 1 | cut [🔊](/courses/audio/words/cut.mp3) | /kʌt/ | vs | cot [🔊](/courses/audio/words/cot.mp3) | /kɑːt/ | cut 嘴小力弹；cot 嘴开到底且更长 |
+| 2 | cup [🔊](/courses/audio/words/cup.mp3) | /kʌp/ | vs | cop [🔊](/courses/audio/words/cop.mp3) | /kɑːp/ | cup 嘴微开；cop 下巴往下落 |
 
 **C 组：/ʌ/ vs /ə/ 对比**（重读 vs 弱读）
 
 | # | /ʌ/ 词/音节 | IPA | VS | /ə/ 词/音节 | IPA | 区别感受 |
 |---|------------|-----|----|------------|-----|---------|
-| 1 | but（句末加重）🔊[A-10] | /bʌt/ | vs | about（第一音节）🔊[A-11] | /ə.ˈbaʊt/ | but 有力弹出；about 开头那个音可以几乎不发力 |
+| 1 | but（句末加重）[🔊](/courses/audio/words/but.mp3) | /bʌt/ | vs | about（第一音节）[🔊](/courses/audio/words/about.mp3) | /ə.ˈbaʊt/ | but 有力弹出；about 开头那个音可以几乎不发力 |
 
 ---
 
@@ -70,7 +70,7 @@ description: "美式英语单元音对比 · /ʌ/"
 > **Love** is not e**nough**, but it's a **good** **start**.
 > /lʌv ɪz nɑːt ɪˈnʌf bʌt ɪts ə ɡʊd stɑːrt/
 
-🔊[A-12]
+
 
 中文意思：爱不够，但是个好的开始。
 练习重点：**love / enough / but** 这三个 /ʌ/ 音节都是重读，感受它们短促有力的弹出感；*a* 和 *it's* 里的 /ə/ 对比。
@@ -79,7 +79,7 @@ description: "美式英语单元音对比 · /ʌ/"
 > **Cut** the **stuff** and just **come** here.
 > /kʌt ðə stʌf ən dʒʌst kʌm hɪr/
 
-🔊[A-13]
+
 
 中文意思：别废话了，过来。（非正式口语）
 练习重点：一句话里出现 **cut / stuff / just / come** 四个 /ʌ/，感受连续重读 /ʌ/ 的节奏感。
@@ -109,9 +109,9 @@ description: "美式英语单元音对比 · /ʌ/"
 **步骤：**
 1. 打开音频，先只听一遍，不出声，感受嘴张开的大小。
 2. 跟读以下材料，每词 / 每句**连续跟读 5 次**：
-   - 核心词：cup / but / sun / love / cut 🔊[A-01]～🔊[A-05]
-   - 对比组：cut–cot 🔊[A-06][A-07]，cup–cop 🔊[A-08][A-09]
-   - 语流句 1 🔊[A-12]，语流句 2 🔊[A-13]
+ - 核心词：cup [🔊](/courses/audio/words/cup.mp3) / but [🔊](/courses/audio/words/but.mp3) / sun [🔊](/courses/audio/words/sun.mp3) / love [🔊](/courses/audio/words/love.mp3) / cut [🔊](/courses/audio/words/cut.mp3)
+ - 对比组：cut [🔊](/courses/audio/words/cut.mp3)–cot [🔊](/courses/audio/words/cot.mp3)，cup [🔊](/courses/audio/words/cup.mp3)–cop [🔊](/courses/audio/words/cop.mp3)
+ - 语流句 1、语流句 2
 3. 用手机录下自己读一遍语流句 1。
 4. 回放录音，只听一件事：**love / enough / but 这三个词，自己的嘴有没有开太大、下巴有没有砸下去？**
 
@@ -125,7 +125,7 @@ description: "美式英语单元音对比 · /ʌ/"
 
 **操作流程**：
 1. 对着镜子，观察自己说每个词时下巴下落幅度。
-2. 逐词录音——每次只录一个词，立刻回放，对照 🔊[A-01]～🔊[A-05] 中的示范音。
+2. 逐词录音——每次只录一个词，立刻回放，对照 ～ 中的示范音。
 3. 如果某个词听起来和示范差距大，**只改这一个词**：
    - 如果嘴开大了 → 试着把下巴提高一些再录。
    - 如果太轻了 → 加一口气的力度，用力弹出来再录。
@@ -189,7 +189,7 @@ description: "美式英语单元音对比 · /ʌ/"
 
 听下面两个音频，哪个是 *cut*，哪个是 *cot*？
 
-> 选项 A 🔊[A-06]　　选项 B 🔊[A-07]
+> 选项 A 　　选项 B 
 
 **答案**：A 是 *cut* /kʌt/，B 是 *cot* /kɑːt/。判断依据：A 的嘴开口小、音短而有力；B 的元音更长、更开。
 
