@@ -30,8 +30,39 @@
   --sl-shadow-md: 0 4px 16px oklch(0.2 0.02 55 / 0.22);
   --sl-shadow-lg: 0 12px 32px oklch(0.2 0.02 55 / 0.28);
 
-  --sl-content-width: 44rem;
+  --sl-content-width: 45rem;
   --sl-line-height: 1.75;
+
+  /* 课文字号：比 Starlight 默认小一档，大屏也不再放大 */
+  --sl-text-h1: var(--sl-text-3xl); /* 29px */
+  --sl-text-h2: var(--sl-text-2xl); /* 24px */
+  --sl-text-h3: var(--sl-text-xl); /* 20px */
+  --sl-text-h4: var(--sl-text-lg); /* 18px */
+
+  /* 块级间距改走 padding-bottom，关掉 Starlight 的相邻 margin-top */
+  --sl-content-gap-y: 0;
+  --sl-line-height-headings: 1.35;
+  --vocalace-block-pb: 0.85rem;
+}
+
+@media (min-width: 50em) {
+  :root,
+  ::backdrop {
+    --sl-text-h1: var(--sl-text-3xl);
+    --sl-text-h2: var(--sl-text-2xl);
+    --sl-text-h3: var(--sl-text-xl);
+    --sl-text-h4: var(--sl-text-lg);
+  }
+}
+
+/*
+  有左栏 + 右 TOC：固定左边距，不靠 auto 随屏宽无限变大。
+  总左空 ≈ margin + --sl-content-pad-x（大屏 1.5rem）≈ 4rem，呼吸感够又不空。
+*/
+@media (min-width: 72rem) {
+  [data-has-sidebar][data-has-toc] .main-pane {
+    --sl-content-margin-inline: 2.5rem 0;
+  }
 }
 
 :root[data-theme='light'],
@@ -83,41 +114,6 @@ header.header {
   color: var(--sl-color-gray-3);
 }
 
-/* Vocabulary demo audio (GET /vocabulary/audio?word=) */
-.audio-play {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-inline: 0.15em;
-  padding: 0.1em 0.25em;
-  border: 0;
-  border-radius: 0.35rem;
-  background: transparent;
-  color: var(--sl-color-accent-high);
-  font: inherit;
-  line-height: 1;
-  cursor: pointer;
-  vertical-align: baseline;
-}
-
-.audio-play:hover {
-  background: var(--sl-color-accent-low);
-}
-
-.audio-play:focus-visible {
-  outline: 2px solid var(--sl-color-accent);
-  outline-offset: 2px;
-}
-
-.audio-play.is-loading,
-.audio-play.is-playing {
-  opacity: 0.55;
-}
-
-.audio-play:disabled {
-  cursor: wait;
-}
-
 /* Display headings — Vocalace brand voice */
 .sl-markdown-content h1,
 .sl-markdown-content h2,
@@ -134,6 +130,39 @@ h1#_top,
 h1#_top,
 .page-title {
   font-weight: 500;
+}
+
+/*
+  正文块统一 padding-bottom（含标题 wrapper）。
+  不用相邻 margin：h 为 inline 时易塌陷，p/table 也会挤。
+*/
+.sl-markdown-content
+  :is(
+    .sl-heading-wrapper,
+    p,
+    table,
+    ul,
+    ol,
+    dl,
+    pre,
+    blockquote,
+    hr,
+    figure,
+    details,
+    .starlight-aside
+  ):not(:where(.not-content *)) {
+  padding-bottom: var(--vocalace-block-pb);
+}
+
+/* 章节标题前略留空（上一块已有 pb，这里只加一点） */
+.sl-markdown-content
+  :not(h1, h2, h3, h4, h5, h6, .sl-heading-wrapper)
+  + .sl-heading-wrapper {
+  margin-top: 1.25em;
+}
+
+.sl-markdown-content > .sl-heading-wrapper:first-child {
+  margin-top: 0;
 }
 
 /* Body: calmer weight & spacing */

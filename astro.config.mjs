@@ -28,9 +28,10 @@ export default defineConfig({
         SocialIcons: './src/components/SocialIcons.astro',
         Pagination: './src/components/Pagination.astro',
         PageTitle: './src/components/PageTitle.astro',
-        MarkdownContent: './src/components/MarkdownContent.astro',
       },
-      editLink: undefined,
+      editLink: {
+        baseUrl: 'https://github.com/KenjiGinjo/vocalace-course/edit/main/',
+      },
       pagination: true,
       lastUpdated: false,
       sidebar: [

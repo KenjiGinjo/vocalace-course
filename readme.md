@@ -1,43 +1,50 @@
-# courses
+# Vocalace Course
 
-美式英语课程站。Astro Starlight，线上路径 `/courses`。
+[Vocalace](https://vocalace.com) 美式英语公开课程站。Astro Starlight，线上路径 [`/courses`](https://vocalace.com/courses)。
+
+开源免费，欢迎纠错与补课。觉得有用请给仓库点个 [★ Star](https://github.com/KenjiGinjo/vocalace-course)。
 
 ## 定位
 
-**公开免费，当作 SEO，不单独卖课。**
-
-- 给中文母语者的发音 / 语流长尾词引流（如 `/æ/ vs /e/`、ship vs sheep）
+- 给中文母语者：发音 / 语流长尾词引流（如 `/æ/ vs /e/`、ship vs sheep）
 - 链回主站：词典、音标、试用 / 练习
 - 不接 Vocalace 打分练习
-- 正文里的 `🔊[A-xx]`：能解析到单词的会变成可点播放（`GET /vocabulary/audio?word=`）；句子级 / 对不上词的标记会隐藏
-- 本地播放需 API（`:10092`）在跑，并把 `http://localhost:10096` 加进 API 的 `CLIENT_URL`（见 `app/api/.env.example`）
-- `promotional-resources/` 只做备课与生成，**不要改那边**；定稿内容放在本目录 `src/content/docs/`
 
-## 本地
+## 在页面上修正
+
+每课页脚有 **「在 GitHub 修正此页」**，会打开本仓对应 Markdown，可直接提 PR。
+
+流程简述：
+
+1. 点页脚编辑链接（或自行 fork）
+2. 改 `src/content/docs/` 下对应文件
+3. 开 Pull Request，说明改了什么、为什么
+
+欢迎修正：错别字、音标/例句不准、链接失效、缺漏步骤等。大改大纲或新开整章前，先开 Issue 讨论。
+
+## 本地开发
 
 ```bash
-cd app/courses
+bun install
 bun run dev      # http://localhost:10096/courses/
 bun run build
 bun run preview  # http://localhost:10096/courses/
 ```
 
-`astro.config.mjs` 里 `base: '/courses'`、`site: 'https://vocalace.com'`。
+`astro.config.mjs`：`base: '/courses'`，`site: 'https://vocalace.com'`。
 
-## 内容
+## 内容结构
 
+- 正文：`src/content/docs/`
 - 侧栏按完整大纲排章节；暂无正文的页标「内容筹备中」
 - 已上线：`1.1 单元音对比` 六课 → `src/content/docs/1-phonetics/1-1/`
-- 从外部目录导入一课（只读源目录，写入本 app）：
+- 从外部目录导入一课（只读源，写入本仓）：
 
-```bash
-bun ./scripts/import-lessons.ts /path/to/lesson-folder
-```
 
-正文里的站内链接请带 `/courses` 前缀（例如 `/courses/1-phonetics/1-1/ae-vs-e/`）。
+站内链接请带 `/courses` 前缀（例如 `/courses/1-phonetics/1-1/ae-vs-e/`）。
 
 ## 部署
 
-构建产物在 `dist/`。服务器需把该目录挂到站点的 `/courses/`（与 `app/web` 同域）。Header「课程」链到 `/courses`，走整页跳转，不是 web SPA 路由。
+构建产物在 `dist/`。服务器把该目录挂到站点的 `/courses/`（与主站同域）。
 
-上线后记得让主站 / sitemap 能发现课程 URL，便于收录。
+上线后让主站 / sitemap 能发现课程 URL，便于收录。

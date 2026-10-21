@@ -1,31 +1,80 @@
 ---
 /**
- * Header ad slot: CTA into Vocalace practice (replaces social icons).
- * Absolute host so local `courses` dev still lands on the real product.
+ * Header actions: Star the open-source course repo + jump into Vocalace practice.
  */
+import { Icon } from '@astrojs/starlight/components'
+
+const repoHref = 'https://github.com/KenjiGinjo/vocalace-course'
 const practiceHref = 'https://vocalace.com/practice'
 ---
 
-<a class="practice-cta" href={practiceHref} title="打开 Vocalace，跟读并纠音">
-	去练习
-</a>
+<div class="header-actions">
+	<a class="practice-cta" href={practiceHref} title="打开 Vocalace，跟读并纠音">
+		去练习
+	</a>
+	<a
+		class="star-cta"
+		href={repoHref}
+		target="_blank"
+		rel="noopener noreferrer"
+		title="在 GitHub 上 Star 本课程仓库"
+	>
+		<Icon name="github" size="1.05rem" />
+		<span>Star</span>
+	</a>
+</div>
 
 <style>
+	.header-actions {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.star-cta,
 	.practice-cta {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		gap: 0.35rem;
 		height: 2rem;
-		padding: 0 0.9rem;
+		padding: 0 0.75rem;
 		border-radius: 0.625rem;
-		background: oklch(0.45 0.09 185);
-		color: oklch(0.99 0.01 82);
 		font-size: 0.8125rem;
 		font-weight: 600;
 		line-height: 1;
 		text-decoration: none;
 		white-space: nowrap;
-		transition: background 0.15s ease;
+		transition:
+			background 0.15s ease,
+			color 0.15s ease,
+			border-color 0.15s ease;
+	}
+
+	.star-cta {
+		border: 1px solid var(--sl-color-hairline);
+		background: transparent;
+		color: var(--sl-color-gray-2);
+	}
+
+	.star-cta:hover {
+		border-color: var(--sl-color-gray-3);
+		color: var(--sl-color-white);
+	}
+
+	.star-cta:focus-visible {
+		outline: 2px solid var(--sl-color-accent);
+		outline-offset: 2px;
+	}
+
+	.star-cta :global(svg) {
+		flex-shrink: 0;
+	}
+
+	.practice-cta {
+		padding: 0 0.9rem;
+		background: oklch(0.45 0.09 185);
+		color: oklch(0.99 0.01 82);
 	}
 
 	.practice-cta:hover {
@@ -38,6 +87,11 @@ const practiceHref = 'https://vocalace.com/practice'
 		outline-offset: 2px;
 	}
 
+	:global(.mobile-preferences) .header-actions {
+		gap: 0.6rem;
+	}
+
+	:global(.mobile-preferences) .star-cta,
 	:global(.mobile-preferences) .practice-cta {
 		height: 2.5rem;
 		padding-inline: 1rem;

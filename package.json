@@ -1,5 +1,6 @@
 {
-  "name": "courses-app",
+  "name": "vocalace-course",
+  "description": "Vocalace 美式英语公开课程站",
   "type": "module",
   "version": "1.0.0",
   "private": true,
