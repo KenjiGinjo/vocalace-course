@@ -61,7 +61,16 @@ export default defineConfig({
                 { label: '/ʌ/ vs /ə/', slug: '1-phonetics/1-2/uh-vs-schwa' },
               ],
             },
-            { label: '1.3 双元音', slug: '1-phonetics/1-3' },
+            {
+              label: '1.3 双元音',
+              items: [
+                { label: '/eɪ/', slug: '1-phonetics/1-3/ey' },
+                { label: '/aɪ/', slug: '1-phonetics/1-3/ay' },
+                { label: '/ɔɪ/', slug: '1-phonetics/1-3/oy' },
+                { label: '/aʊ/', slug: '1-phonetics/1-3/aw' },
+                { label: '/oʊ/', slug: '1-phonetics/1-3/ow' },
+              ],
+            },
             { label: '1.4 R 音组合', slug: '1-phonetics/1-4' },
             { label: '1.5 辅音对比与常见难点', slug: '1-phonetics/1-5' },
             { label: '1.6 音节重读与弱读', slug: '1-phonetics/1-6' },
