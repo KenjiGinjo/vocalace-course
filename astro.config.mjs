@@ -52,7 +52,15 @@ export default defineConfig({
                 { label: '/ɑː/', slug: '1-phonetics/1-1/aa' },
               ],
             },
-            { label: '1.2 弱读与卷舌元音', slug: '1-phonetics/1-2' },
+            {
+              label: '1.2 弱读与卷舌元音',
+              items: [
+                { label: '/ə/', slug: '1-phonetics/1-2/schwa' },
+                { label: '/ɝː/', slug: '1-phonetics/1-2/er' },
+                { label: '/ɚ/', slug: '1-phonetics/1-2/er-weak' },
+                { label: '/ʌ/ vs /ə/', slug: '1-phonetics/1-2/uh-vs-schwa' },
+              ],
+            },
             { label: '1.3 双元音', slug: '1-phonetics/1-3' },
             { label: '1.4 R 音组合', slug: '1-phonetics/1-4' },
             { label: '1.5 辅音对比与常见难点', slug: '1-phonetics/1-5' },
