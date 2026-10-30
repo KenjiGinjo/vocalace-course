@@ -169,10 +169,30 @@ export default defineConfig({
                 { label: '四种态度', slug: '3-sentences/3-2/attitude' },
               ],
             },
-            { label: '3.3 跟读模仿流程', slug: '3-sentences/3-3' },
+            {
+              label: '3.3 跟读模仿流程',
+              items: [
+                { label: '先慢后正常', slug: '3-sentences/3-3/slow' },
+                { label: '影子跟读', slug: '3-sentences/3-3/shadow' },
+                { label: '先节奏再改一个音', slug: '3-sentences/3-3/rhythm' },
+              ],
+            },
           ],
         },
-        { label: '四、听力策略：听懂美式口语', slug: '4-listening' },
+        {
+          label: '四、听力策略：听懂美式口语',
+          items: [
+            {
+              label: '4.1 缩略与弱读听辨',
+              items: [
+                { label: '听出缩略', slug: '4-listening/4-1/reduced' },
+                { label: '功能词靠位置补', slug: '4-listening/4-1/function' },
+                { label: '先抓实词再补', slug: '4-listening/4-1/dictation' },
+              ],
+            },
+            { label: '4.2 闪音与连读听辨', slug: '4-listening/4-2' },
+          ],
+        },
         { label: '五、语法思维转换', slug: '5-grammar' },
         { label: '六、日常对话核心句型', slug: '6-dialogue' },
         { label: '七、美式表达与搭配', slug: '7-expressions' },
