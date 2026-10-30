@@ -71,7 +71,16 @@ export default defineConfig({
                 { label: '/oʊ/', slug: '1-phonetics/1-3/ow' },
               ],
             },
-            { label: '1.4 R 音组合', slug: '1-phonetics/1-4' },
+            {
+              label: '1.4 R 音组合',
+              items: [
+                { label: '/ɑːr/', slug: '1-phonetics/1-4/ar' },
+                { label: '/ɔːr/', slug: '1-phonetics/1-4/or' },
+                { label: '/ɪr/', slug: '1-phonetics/1-4/ir' },
+                { label: '/eɪr/', slug: '1-phonetics/1-4/air' },
+                { label: '/ʊr/', slug: '1-phonetics/1-4/ur' },
+              ],
+            },
             { label: '1.5 辅音对比与常见难点', slug: '1-phonetics/1-5' },
             { label: '1.6 音节重读与弱读', slug: '1-phonetics/1-6' },
             { label: '1.7 美式特色音变', slug: '1-phonetics/1-7' },
