@@ -37,7 +37,7 @@ bun run preview  # http://localhost:10096/
 
 - 正文：`src/content/docs/`
 - 侧栏按完整大纲排章节；暂无正文的页标「内容筹备中」
-- 已上线：`1.1` 六课、`1.2` 四课、`1.3` 五课、`1.4` 五课 → `src/content/docs/1-phonetics/`
+- 已上线：`1.1` 六课、`1.2` 四课、`1.3` 五课、`1.4` 五课、`1.5` 十课 → `src/content/docs/1-phonetics/`
 
 站内链接用根路径（例如 `/1-phonetics/1-1/ae-vs-e/`、`/audio/words/bad.mp3`）。
 
