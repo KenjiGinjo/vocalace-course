@@ -190,7 +190,22 @@ export default defineConfig({
                 { label: '先抓实词再补', slug: '4-listening/4-1/dictation' },
               ],
             },
-            { label: '4.2 闪音与连读听辨', slug: '4-listening/4-2' },
+            {
+              label: '4.2 闪音与连读听辨',
+              items: [
+                { label: '听出闪音', slug: '4-listening/4-2/flap' },
+                { label: '音块再拆词', slug: '4-listening/4-2/link' },
+                { label: '三步听写', slug: '4-listening/4-2/steps' },
+              ],
+            },
+            {
+              label: '4.3 精听材料与流程',
+              items: [
+                { label: '选对那一小段', slug: '4-listening/4-3/pick' },
+                { label: '四步精听', slug: '4-listening/4-3/flow' },
+                { label: '每周五段', slug: '4-listening/4-3/week' },
+              ],
+            },
           ],
         },
         { label: '五、语法思维转换', slug: '5-grammar' },
