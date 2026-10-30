@@ -149,7 +149,29 @@ export default defineConfig({
             },
           ],
         },
-        { label: '三、句子朗读与语调控制', slug: '3-sentences' },
+        {
+          label: '三、句子朗读与语调控制',
+          items: [
+            {
+              label: '3.1 连读、失爆与语流',
+              items: [
+                { label: '辅音接元音', slug: '3-sentences/3-1/link' },
+                { label: '相同辅音并一次', slug: '3-sentences/3-1/merge' },
+                { label: '口语缩略', slug: '3-sentences/3-1/reduced' },
+                { label: '三档速度', slug: '3-sentences/3-1/speeds' },
+              ],
+            },
+            {
+              label: '3.2 升降调与句子重音',
+              items: [
+                { label: '陈述降、疑问升', slug: '3-sentences/3-2/contour' },
+                { label: '重音改意思', slug: '3-sentences/3-2/stress' },
+                { label: '四种态度', slug: '3-sentences/3-2/attitude' },
+              ],
+            },
+            { label: '3.3 跟读模仿流程', slug: '3-sentences/3-3' },
+          ],
+        },
         { label: '四、听力策略：听懂美式口语', slug: '4-listening' },
         { label: '五、语法思维转换', slug: '5-grammar' },
         { label: '六、日常对话核心句型', slug: '6-dialogue' },
