@@ -127,7 +127,17 @@ export default defineConfig({
                 { label: '字母组合', slug: '2-phonics/2-1/digraphs' },
               ],
             },
-            { label: '2.2 按音素难点学高频词', slug: '2-phonics/2-2' },
+            {
+              label: '2.2 按音素难点学高频词',
+              items: [
+                { label: '/æ/ 高频词', slug: '2-phonics/2-2/ae' },
+                { label: 'th 高频词', slug: '2-phonics/2-2/th' },
+                { label: '/r/ 高频词', slug: '2-phonics/2-2/r' },
+                { label: '闪音高频词', slug: '2-phonics/2-2/flap' },
+                { label: '/ɝː/ 高频词', slug: '2-phonics/2-2/er' },
+                { label: '按词性记', slug: '2-phonics/2-2/groups' },
+              ],
+            },
             { label: '2.3 听音拼写闭环', slug: '2-phonics/2-3' },
           ],
         },
