@@ -273,6 +273,14 @@ export default defineConfig({
               ],
             },
             { label: '6.3 同意、拒绝、犹豫、澄清', slug: '6-dialogue/6-3' },
+            {
+              label: '6.4 场景模拟',
+              items: [
+                { label: '回听只改一处', slug: '6-dialogue/6-4/check' },
+                { label: '初次见面走完', slug: '6-dialogue/6-4/meet' },
+                { label: '请求、答应、再问', slug: '6-dialogue/6-4/lunch' },
+              ],
+            },
           ],
         },
         { label: '七、美式表达与搭配', slug: '7-expressions' },
