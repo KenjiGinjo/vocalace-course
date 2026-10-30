@@ -115,7 +115,22 @@ export default defineConfig({
             },
           ],
         },
-        { label: '二、单词拼读与记忆方法', slug: '2-phonics' },
+        {
+          label: '二、单词拼读与记忆方法',
+          items: [
+            {
+              label: '2.1 自然拼读入门',
+              items: [
+                { label: '先猜再查', slug: '2-phonics/2-1/rules' },
+                { label: '闭音节', slug: '2-phonics/2-1/cvc' },
+                { label: '魔法 e', slug: '2-phonics/2-1/magic-e' },
+                { label: '字母组合', slug: '2-phonics/2-1/digraphs' },
+              ],
+            },
+            { label: '2.2 按音素难点学高频词', slug: '2-phonics/2-2' },
+            { label: '2.3 听音拼写闭环', slug: '2-phonics/2-3' },
+          ],
+        },
         { label: '三、句子朗读与语调控制', slug: '3-sentences' },
         { label: '四、听力策略：听懂美式口语', slug: '4-listening' },
         { label: '五、语法思维转换', slug: '5-grammar' },
