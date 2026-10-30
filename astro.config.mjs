@@ -96,8 +96,23 @@ export default defineConfig({
                 { label: '/θr/', slug: '1-phonetics/1-5/th-r' },
               ],
             },
-            { label: '1.6 音节重读与弱读', slug: '1-phonetics/1-6' },
-            { label: '1.7 美式特色音变', slug: '1-phonetics/1-7' },
+            {
+              label: '1.6 音节重读与弱读',
+              items: [
+                { label: '重读 / 弱读', slug: '1-phonetics/1-6/stress' },
+                { label: '名前动后', slug: '1-phonetics/1-6/noun-verb' },
+                { label: '功能词弱读', slug: '1-phonetics/1-6/weak' },
+                { label: '意群停顿', slug: '1-phonetics/1-6/groups' },
+              ],
+            },
+            {
+              label: '1.7 美式特色音变',
+              items: [
+                { label: 'T 闪音', slug: '1-phonetics/1-7/flap' },
+                { label: '失爆', slug: '1-phonetics/1-7/unreleased' },
+                { label: '词尾清浊', slug: '1-phonetics/1-7/length' },
+              ],
+            },
           ],
         },
         { label: '二、单词拼读与记忆方法', slug: '2-phonics' },
