@@ -264,7 +264,15 @@ export default defineConfig({
                 { label: '告别要接话', slug: '6-dialogue/6-1/bye' },
               ],
             },
-            { label: '6.2 请求、许可、帮忙', slug: '6-dialogue/6-2' },
+            {
+              label: '6.2 请求、许可、帮忙',
+              items: [
+                { label: 'Could you 开口', slug: '6-dialogue/6-2/could' },
+                { label: 'Not at all 是同意', slug: '6-dialogue/6-2/mind' },
+                { label: '柜台 Can I get', slug: '6-dialogue/6-2/order' },
+              ],
+            },
+            { label: '6.3 同意、拒绝、犹豫、澄清', slug: '6-dialogue/6-3' },
           ],
         },
         { label: '七、美式表达与搭配', slug: '7-expressions' },
