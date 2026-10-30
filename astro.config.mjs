@@ -138,7 +138,15 @@ export default defineConfig({
                 { label: '按词性记', slug: '2-phonics/2-2/groups' },
               ],
             },
-            { label: '2.3 听音拼写闭环', slug: '2-phonics/2-3' },
+            {
+              label: '2.3 听音拼写与纠错',
+              items: [
+                { label: '一次只改一个音', slug: '2-phonics/2-3/loop' },
+                { label: '听写盯住那个音', slug: '2-phonics/2-3/dictation' },
+                { label: '用一句话指出差距', slug: '2-phonics/2-3/compare' },
+                { label: '改完再验收', slug: '2-phonics/2-3/fix-one' },
+              ],
+            },
           ],
         },
         { label: '三、句子朗读与语调控制', slug: '3-sentences' },
