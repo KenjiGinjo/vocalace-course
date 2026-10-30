@@ -208,8 +208,65 @@ export default defineConfig({
             },
           ],
         },
-        { label: '五、语法思维转换', slug: '5-grammar' },
-        { label: '六、日常对话核心句型', slug: '6-dialogue' },
+        {
+          label: '五、语法思维转换',
+          items: [
+            {
+              label: '5.1 冠词',
+              items: [
+                { label: '对方知道才用 the', slug: '5-grammar/5-1/a-the' },
+                { label: '说一类不加 the', slug: '5-grammar/5-1/zero' },
+                { label: '两条口诀选冠词', slug: '5-grammar/5-1/choose' },
+              ],
+            },
+            {
+              label: '5.2 可数不可数与单复数',
+              items: [
+                { label: '先数能不能数', slug: '5-grammar/5-2/count' },
+                { label: '数量词跟名词走', slug: '5-grammar/5-2/amount' },
+                { label: '六个词改错', slug: '5-grammar/5-2/fix' },
+              ],
+            },
+            {
+              label: '5.3 时态的口语直觉',
+              items: [
+                { label: '现在、过去、将来', slug: '5-grammar/5-3/basic' },
+                { label: '现在还有影响', slug: '5-grammar/5-3/perfect' },
+                { label: '此刻还是习惯', slug: '5-grammar/5-3/progressive' },
+              ],
+            },
+            {
+              label: '5.4 介词与基本语序',
+              items: [
+                { label: '六个介词', slug: '5-grammar/5-4/prep' },
+                { label: '助动词换位置', slug: '5-grammar/5-4/order' },
+                { label: '四条骨架', slug: '5-grammar/5-4/frame' },
+              ],
+            },
+            {
+              label: '5.5 其他高频中式英语坑',
+              items: [
+                { label: '动词加 -s', slug: '5-grammar/5-5/agree' },
+                { label: '形容词排队', slug: '5-grammar/5-5/adj' },
+                { label: 'too 和 either', slug: '5-grammar/5-5/too' },
+              ],
+            },
+          ],
+        },
+        {
+          label: '六、日常对话核心句型',
+          items: [
+            {
+              label: '6.1 问候、介绍、告别',
+              items: [
+                { label: '问候接短句', slug: '6-dialogue/6-1/hi' },
+                { label: '初次见面', slug: '6-dialogue/6-1/intro' },
+                { label: '告别要接话', slug: '6-dialogue/6-1/bye' },
+              ],
+            },
+            { label: '6.2 请求、许可、帮忙', slug: '6-dialogue/6-2' },
+          ],
+        },
         { label: '七、美式表达与搭配', slug: '7-expressions' },
         { label: '八、生活场景实战', slug: '8-scenarios' },
         { label: '九、短文听说综合训练', slug: '9-passages' },
@@ -228,3 +285,4 @@ export default defineConfig({
     }),
   ],
 })
+
