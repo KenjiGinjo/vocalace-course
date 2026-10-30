@@ -283,7 +283,29 @@ export default defineConfig({
             },
           ],
         },
-        { label: '七、美式表达与搭配', slug: '7-expressions' },
+        {
+          label: '七、美式表达与搭配',
+          items: [
+            {
+              label: '7.1 美式日常用词',
+              items: [
+                { label: '住行四个词', slug: '7-expressions/7-1/place' },
+                { label: '垃圾、度假、秋天', slug: '7-expressions/7-1/words' },
+                { label: '放进句子再换', slug: '7-expressions/7-1/swap' },
+              ],
+            },
+            {
+              label: '7.2 高频动词搭配',
+              items: [
+                { label: '洗澡休息用 take', slug: '7-expressions/7-2/take' },
+                { label: '决定和 make it', slug: '7-expressions/7-2/make' },
+                { label: '到家准备用 get', slug: '7-expressions/7-2/get' },
+                { label: 'catch 和 do/make', slug: '7-expressions/7-2/catch' },
+              ],
+            },
+            { label: '7.3 口语填充与反应词', slug: '7-expressions/7-3' },
+          ],
+        },
         { label: '八、生活场景实战', slug: '8-scenarios' },
         { label: '九、短文听说综合训练', slug: '9-passages' },
         { label: '十、发音流利度提升', slug: '10-fluency' },
