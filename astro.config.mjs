@@ -303,7 +303,15 @@ export default defineConfig({
                 { label: 'catch 和 do/make', slug: '7-expressions/7-2/catch' },
               ],
             },
-            { label: '7.3 口语填充与反应词', slug: '7-expressions/7-3' },
+            {
+              label: '7.3 口语填充与反应词',
+              items: [
+                { label: 'Yeah 和 Right', slug: '7-expressions/7-3/yeah' },
+                { label: '四个填充词', slug: '7-expressions/7-3/filler' },
+                { label: '一段一到两个', slug: '7-expressions/7-3/less' },
+              ],
+            },
+            { label: '7.4 数字、时间、价格、电话', slug: '7-expressions/7-4' },
           ],
         },
         { label: '八、生活场景实战', slug: '8-scenarios' },
