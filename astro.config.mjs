@@ -311,10 +311,33 @@ export default defineConfig({
                 { label: '一段一到两个', slug: '7-expressions/7-3/less' },
               ],
             },
-            { label: '7.4 数字、时间、价格、电话', slug: '7-expressions/7-4' },
+            {
+              label: '7.4 数字、时间、价格、电话',
+              items: [
+                { label: '日期和时间', slug: '7-expressions/7-4/date' },
+                { label: '价格两组数字', slug: '7-expressions/7-4/price' },
+                { label: '电话 3-3-4', slug: '7-expressions/7-4/phone' },
+              ],
+            },
           ],
         },
-        { label: '八、生活场景实战', slug: '8-scenarios' },
+        {
+          label: '八、生活场景实战',
+          items: [
+            {
+              label: '8.1 购物、点餐、问路',
+              items: [
+                { label: '问价问码结账', slug: '8-scenarios/8-1/shop' },
+                { label: '点餐忌口打包', slug: '8-scenarios/8-1/order' },
+                { label: '问路用 block', slug: '8-scenarios/8-1/ask' },
+              ],
+            },
+            { label: '8.2 交通与出行', slug: '8-scenarios/8-2' },
+            { label: '8.3 电话与邮件', slug: '8-scenarios/8-3' },
+            { label: '8.4 预约、改期、投诉、求助', slug: '8-scenarios/8-4' },
+            { label: '8.5 社交与职场轻量场景', slug: '8-scenarios/8-5' },
+          ],
+        },
         { label: '九、短文听说综合训练', slug: '9-passages' },
         { label: '十、发音流利度提升', slug: '10-fluency' },
         { label: '十一、英美差异意识', slug: '11-us-uk' },
@@ -331,4 +354,5 @@ export default defineConfig({
     }),
   ],
 })
+
 
