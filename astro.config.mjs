@@ -7,7 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Vocalace',
-      description: '中文母语者学美式英语 · 发音与口语课程',
+      description: '面向中文母语者的美式英语课程：专攻高频错音与美式语流（弱化、连读、闪音、重音、美式用词），一课只练一个点，示范跟读后录音对照。目标是别人听得懂，开口有底气。',
       defaultLocale: 'root',
       locales: {
         root: {

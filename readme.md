@@ -1,6 +1,8 @@
 # Vocalace Course
 
-给中文母语者的通用美语课程。站点是 [course.vocalace.com](https://course.vocalace.com)，用 Astro Starlight 做。开源，欢迎改错字、音标、例句和失效链接。
+面向中文母语者的美式英语课程：专攻高频错音与美式语流（弱化、连读、闪音、重音、美式用词），一课只练一个点，示范跟读后录音对照。目标是别人听得懂，开口有底气。
+
+站点是 [course.vocalace.com](https://course.vocalace.com)，用 Astro Starlight 做。开源，欢迎改错字、音标、例句和失效链接。
 
 ## 修改课文
 
