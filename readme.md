@@ -1,26 +1,18 @@
 # Vocalace Course
 
-[Vocalace](https://vocalace.com) 美式英语公开课程站。Astro Starlight，线上地址 [course.vocalace.com](https://course.vocalace.com)。
+给中文母语者的通用美语课程。站点是 [course.vocalace.com](https://course.vocalace.com)，用 Astro Starlight 做。开源，欢迎改错字、音标、例句和失效链接。
 
-开源免费，欢迎纠错与补课。觉得有用请给仓库点个 [★ Star](https://github.com/KenjiGinjo/vocalace-course)。
+## 改一课
 
-## 定位
+每课页脚有 **「在 GitHub 修正此页」**，会打开本仓里对应的 Markdown。
 
-- 给中文母语者：发音 / 语流长尾词引流（如 `/æ/ vs /e/`、ship vs sheep）
-- 链回主站：词典、音标、试用 / 练习
-- 不接 Vocalace 打分练习
+1. 点页脚链接，或自行 fork
+2. 改 `src/content/docs/` 里的那一课
+3. 开 Pull Request，写清改了什么、为什么
 
-## 在页面上修正
+侧栏在 `astro.config.mjs`。改课的标题或顺序时，两边一起改。大改大纲或新开一章之前，先开 Issue。
 
-每课页脚有 **「在 GitHub 修正此页」**，会打开本仓对应 Markdown，可直接提 PR。
-
-流程简述：
-
-1. 点页脚编辑链接（或自行 fork）
-2. 改 `src/content/docs/` 下对应文件
-3. 开 Pull Request，说明改了什么、为什么
-
-欢迎修正：错别字、音标/例句不准、链接失效、缺漏步骤等。大改大纲或新开整章前，先开 Issue 讨论。
+一课只讲一个点。音标用本站的通用美语。整句没有录音，🔊 只链到已有的单词文件：`public/audio/words/词.mp3`，页内写成 `/audio/words/词.mp3`。没有这个文件就不要加链接。
 
 ## 本地开发
 
@@ -31,18 +23,31 @@ bun run build
 bun run preview  # http://localhost:10096/
 ```
 
-`astro.config.mjs`：`site: 'https://course.vocalace.com'`（无 `base`，部署在子域根路径）。
+`astro.config.mjs` 里 `site` 是 `https://course.vocalace.com`，没有 `base`，部署在这个域名的根路径。
 
-## 内容结构
+## 课在哪
 
-- 正文：`src/content/docs/`
-- 侧栏按完整大纲排章节；暂无正文的页标「内容筹备中」
-- 已上线：`1.1` 六课、`1.2` 四课、`1.3` 五课、`1.4` 五课、`1.5` 十课、`1.6` 四课、`1.7` 三课、`2.1` 四课、`2.2` 六课、`2.3` 四课、`3.1` 四课、`3.2` 三课、`3.3` 三课、`4.1` 三课、`4.2` 三课、`4.3` 三课、`5.1` 三课、`5.2` 三课、`5.3` 三课、`5.4` 三课、`5.5` 三课、`6.1` 三课、`6.2` 三课、`6.3` 三课、`6.4` 三课、`7.1` 三课、`7.2` 四课、`7.3` 三课、`7.4` 三课、`8.1` 三课、`8.2` 三课、`8.3` 三课、`8.4` 四课、`8.5` 三课、`9.1` 三课、`9.2` 三课、`9.3` 三课、`10.1` 两课、`10.2` 八课、`10.3` 两课、`10.4` 两课、`11` 三课、`12.1` 六课、`12.2` 三课、`12.3` 三课、`12.4` 两课 → `src/content/docs/`
+正文都在 `src/content/docs/`。大纲已经写完，按目录找：
 
-站内链接用根路径（例如 `/1-phonetics/1-1/ae-vs-e/`、`/audio/words/bad.mp3`）。
+| 目录 | 内容 |
+|------|------|
+| `0-intro.md` | 开课说明 |
+| `1-phonetics/` | 语音 |
+| `2-phonics/` | 拼读 |
+| `3-sentences/` | 句子、连读、语调 |
+| `4-listening/` | 听力 |
+| `5-grammar/` | 语序和常见说法 |
+| `6-dialogue/` | 日常对话 |
+| `7-expressions/` | 美式用词 |
+| `8-scenarios/` | 生活场景 |
+| `9-passages/` | 短文跟读、复述、即兴 |
+| `10-fluency/` | 节奏、自查、错音表 |
+| `11-us-uk/` | 英美差异：听辨，开口仍用美式 |
+| `12-practice/` | 串场景和自己安排练习 |
+| `appendix/` | 学习顺序、选题、每课要交什么 |
+
+站内链接用根路径，例如 `/1-phonetics/1-1/ae-vs-e/`。
 
 ## 部署
 
-构建产物在 `dist/`。托管到 Cloudflare Pages / Vercel 等，域名绑 `course.vocalace.com`。
-
-上线后让主站 / sitemap 能发现课程 URL，便于收录。
+`bun run build` 的结果在 `dist/`。线上是 [course.vocalace.com](https://course.vocalace.com)。
