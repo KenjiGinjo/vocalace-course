@@ -380,7 +380,15 @@ export default defineConfig({
           ]},
           { label: '9.3 即兴表达', slug: '9-passages/9-3' },
         ] },
-        { label: '十、发音流利度提升', slug: '10-fluency' },
+        { label: '十、发音流利度提升', items: [
+          { label: '10.1 语速与节奏', items: [
+            { label: '流利不是说更快', slug: '10-fluency/10-1/pace' },
+            { label: '只在重音上拍手', slug: '10-fluency/10-1/beat' },
+          ]},
+          { label: '10.2 中式口音诊断清单', slug: '10-fluency/10-2' },
+          { label: '10.3 个人错音表', slug: '10-fluency/10-3' },
+          { label: '10.4 工具', slug: '10-fluency/10-4' },
+        ]},
         { label: '十一、英美差异意识', slug: '11-us-uk' },
         { label: '十二、综合实践与自主学习', slug: '12-practice' },
         {
