@@ -272,7 +272,11 @@ export default defineConfig({
                 { label: '柜台 Can I get', slug: '6-dialogue/6-2/order' },
               ],
             },
-            { label: '6.3 同意、拒绝、犹豫、澄清', slug: '6-dialogue/6-3' },
+            { label: '6.3 同意、拒绝、犹豫、澄清', items: [
+              { label: '答应看有多确定', slug: '6-dialogue/6-3/yes' },
+              { label: '拒绝先缓冲', slug: '6-dialogue/6-3/no' },
+              { label: '没听清就分层问', slug: '6-dialogue/6-3/ask' },
+            ]},
             {
               label: '6.4 场景模拟',
               items: [
@@ -378,19 +382,65 @@ export default defineConfig({
             { label: '三个要点说成五句', slug: '9-passages/9-2/five' },
             { label: '听完用自己的话说', slug: '9-passages/9-2/retell' },
           ]},
-          { label: '9.3 即兴表达', slug: '9-passages/9-3' },
+          { label: '9.3 即兴表达', items: [
+            { label: '四句说完就停', slug: '9-passages/9-3/time' },
+            { label: '四个话题只看提示', slug: '9-passages/9-3/topics' },
+            { label: '回听只改一类', slug: '9-passages/9-3/fix' },
+          ]},
         ] },
         { label: '十、发音流利度提升', items: [
           { label: '10.1 语速与节奏', items: [
             { label: '流利不是说更快', slug: '10-fluency/10-1/pace' },
             { label: '只在重音上拍手', slug: '10-fluency/10-1/beat' },
           ]},
-          { label: '10.2 中式口音诊断清单', slug: '10-fluency/10-2' },
-          { label: '10.3 个人错音表', slug: '10-fluency/10-3' },
-          { label: '10.4 工具', slug: '10-fluency/10-4' },
+          { label: '10.2 中式口音诊断清单', items: [
+            { label: '自查 /æ/', slug: '10-fluency/10-2/ae' },
+            { label: '自查 th', slug: '10-fluency/10-2/th' },
+            { label: '自查 /r/', slug: '10-fluency/10-2/r' },
+            { label: '自查 /v/', slug: '10-fluency/10-2/vw' },
+            { label: '自查闪音', slug: '10-fluency/10-2/flap' },
+            { label: '自查 /ɝː/', slug: '10-fluency/10-2/er' },
+            { label: '自查句重音', slug: '10-fluency/10-2/stress' },
+            { label: '自查长短元音', slug: '10-fluency/10-2/pairs' },
+          ]},
+          { label: '10.3 个人错音表', items: [
+            { label: '错音记成一行', slug: '10-fluency/10-3/list' },
+            { label: '同一句再录', slug: '10-fluency/10-3/same' },
+          ]},
+          { label: '10.4 工具', items: [
+            { label: '对着单词录音改一处', slug: '10-fluency/10-4/model' },
+            { label: '镜子录音跟读分开', slug: '10-fluency/10-4/mirror' },
+          ]},
         ]},
-        { label: '十一、英美差异意识', slug: '11-us-uk' },
-        { label: '十二、综合实践与自主学习', slug: '12-practice' },
+        { label: '十一、英美差异意识', items: [
+          { label: '四组音听美式', slug: '11-us-uk/hear' },
+          { label: '听到英式词说美式', slug: '11-us-uk/words' },
+          { label: '一段只跟一种', slug: '11-us-uk/stay' },
+        ]},
+        { label: '十二、综合实践与自主学习', items: [
+          { label: '12.1 真实场景一条龙', items: [
+            { label: '五站接成一条', slug: '12-practice/12-1/chain' },
+            { label: '点餐站', slug: '12-practice/12-1/order' },
+            { label: '问路站', slug: '12-practice/12-1/ask' },
+            { label: '介绍站', slug: '12-practice/12-1/self' },
+            { label: '留言站', slug: '12-practice/12-1/message' },
+            { label: '邮件站', slug: '12-practice/12-1/email' },
+          ]},
+          { label: '12.2 每周学习节奏', items: [
+            { label: '每天先跟再录', slug: '12-practice/12-2/day' },
+            { label: '一周三格', slug: '12-practice/12-2/slots' },
+            { label: '精听和一次即兴', slug: '12-practice/12-2/listen' },
+          ]},
+          { label: '12.3 进步标准', items: [
+            { label: '对比词记对数', slug: '12-practice/12-3/pairs' },
+            { label: '代表句一次听懂', slug: '12-practice/12-3/hear' },
+            { label: '听懂缩略和闪音', slug: '12-practice/12-3/reduced' },
+          ]},
+          { label: '12.4 合规与心态', items: [
+            { label: '目标要能检查', slug: '12-practice/12-4/claim' },
+            { label: '同一点重复', slug: '12-practice/12-4/loop' },
+          ]},
+        ]},
         {
           label: '附录',
           items: [
