@@ -373,7 +373,11 @@ export default defineConfig({
             { label: '先听懂再开口', slug: '9-passages/9-1/meaning' },
             { label: '整段把音变用上', slug: '9-passages/9-1/passage' },
           ]},
-          { label: '9.2 复述与概括', slug: '9-passages/9-2' },
+          { label: '9.2 复述与概括', items: [
+            { label: '听完说三个要点', slug: '9-passages/9-2/points' },
+            { label: '三个要点说成五句', slug: '9-passages/9-2/five' },
+            { label: '听完用自己的话说', slug: '9-passages/9-2/retell' },
+          ]},
           { label: '9.3 即兴表达', slug: '9-passages/9-3' },
         ] },
         { label: '十、发音流利度提升', slug: '10-fluency' },
