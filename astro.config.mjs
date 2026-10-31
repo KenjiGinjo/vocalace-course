@@ -332,13 +332,50 @@ export default defineConfig({
                 { label: '问路用 block', slug: '8-scenarios/8-1/ask' },
               ],
             },
-            { label: '8.2 交通与出行', slug: '8-scenarios/8-2' },
-            { label: '8.3 电话与邮件', slug: '8-scenarios/8-3' },
-            { label: '8.4 预约、改期、投诉、求助', slug: '8-scenarios/8-4' },
-            { label: '8.5 社交与职场轻量场景', slug: '8-scenarios/8-5' },
+            {
+              label: '8.2 交通与出行',
+              items: [
+                { label: '上车报目的地', slug: '8-scenarios/8-2/ride' },
+                { label: '地铁问线换乘', slug: '8-scenarios/8-2/subway' },
+                { label: '安检和登机口', slug: '8-scenarios/8-2/airport' },
+              ],
+            },
+            {
+              label: '8.3 电话与邮件',
+              items: [
+                { label: '电话 This is', slug: '8-scenarios/8-3/open' },
+                { label: '留言和 as in', slug: '8-scenarios/8-3/message' },
+                { label: '邮件四段', slug: '8-scenarios/8-3/email' },
+              ],
+            },
+            {
+              label: '8.4 预约、改期、投诉、求助',
+              items: [
+                { label: "预约用 I'd like", slug: '8-scenarios/8-4/book' },
+                { label: '改期 reschedule', slug: '8-scenarios/8-4/move' },
+                { label: '投诉先说事实', slug: '8-scenarios/8-4/complain' },
+                { label: '迷路和不舒服', slug: '8-scenarios/8-4/help' },
+              ],
+            },
+            {
+              label: '8.5 社交与职场轻量场景',
+              items: [
+                { label: '四句介绍自己', slug: '8-scenarios/8-5/self' },
+                { label: '天气周末接话', slug: '8-scenarios/8-5/chat' },
+                { label: '会上同意和打断', slug: '8-scenarios/8-5/room' },
+              ],
+            },
           ],
         },
-        { label: '九、短文听说综合训练', slug: '9-passages' },
+        { label: '九、短文听说综合训练', items: [
+          { label: '9.1 跟读', items: [
+            { label: '选一段能跟完的', slug: '9-passages/9-1/pick' },
+            { label: '先听懂再开口', slug: '9-passages/9-1/meaning' },
+            { label: '整段把音变用上', slug: '9-passages/9-1/passage' },
+          ]},
+          { label: '9.2 复述与概括', slug: '9-passages/9-2' },
+          { label: '9.3 即兴表达', slug: '9-passages/9-3' },
+        ] },
         { label: '十、发音流利度提升', slug: '10-fluency' },
         { label: '十一、英美差异意识', slug: '11-us-uk' },
         { label: '十二、综合实践与自主学习', slug: '12-practice' },
