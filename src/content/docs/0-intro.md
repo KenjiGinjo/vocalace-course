@@ -21,8 +21,8 @@ description: '开课说明 · Vocalace 课程'
 
 音标与词库一致：通用美语（General American）。目标是**别人听得懂、自己听得清**，不承诺「纯正口音」。
 
-### 发现错误？
+### 修正错误
 
-本课开源。每页页脚有 **「在 GitHub 修正此页」**，可直接改对应 Markdown 并提 PR。仓库：[KenjiGinjo/vocalace-course](https://github.com/KenjiGinjo/vocalace-course)。
+课程开源。页脚的 **「在 GitHub 修正此页」** 会打开这一页的 Markdown，可以提交修改。仓库：[KenjiGinjo/vocalace-course](https://github.com/KenjiGinjo/vocalace-course)。
 
 下一步：[1.1 /iː/ vs /ɪ/](/1-phonetics/1-1/i-vs-ih/)

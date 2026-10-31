@@ -16,7 +16,7 @@ description: "点餐那课会背，一离开课文就只说一个名词？这一
 | for here 或 to go | 等对方替你选 |
 | That's it 或一句谢谢 | 点完就停 |
 
-过敏或不要某样，仍用那课的 *without* 或 *I'm allergic to*。这站不新教。
+过敏或不要某样，仍用那课的 *without* 或 *I'm allergic to*。这里不重复。
 
 ## 对比词
 

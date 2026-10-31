@@ -2,15 +2,15 @@
 
 给中文母语者的通用美语课程。站点是 [course.vocalace.com](https://course.vocalace.com)，用 Astro Starlight 做。开源，欢迎改错字、音标、例句和失效链接。
 
-## 改一课
+## 修改课文
 
 每课页脚有 **「在 GitHub 修正此页」**，会打开本仓里对应的 Markdown。
 
 1. 点页脚链接，或自行 fork
-2. 改 `src/content/docs/` 里的那一课
+2. 改 `src/content/docs/` 里的对应文件
 3. 开 Pull Request，写清改了什么、为什么
 
-侧栏在 `astro.config.mjs`。改课的标题或顺序时，两边一起改。大改大纲或新开一章之前，先开 Issue。
+侧栏在 `astro.config.mjs`。课文标题或侧栏顺序有变动时，两边一起改。大改大纲或新开一章之前，先开 Issue。
 
 一课只讲一个点。音标用本站的通用美语。整句没有录音，🔊 只链到已有的单词文件：`public/audio/words/词.mp3`，页内写成 `/audio/words/词.mp3`。没有这个文件就不要加链接。
 

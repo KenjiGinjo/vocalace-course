@@ -1,34 +1,36 @@
 ---
 title: 美式英语课程
-description: 中文母语者学美式英语 · 发音、语流与口语课程
+description: 给中文母语者的通用美语课。一次一课，从口型或规则练到句子里。
 template: splash
 hero:
-  tagline: 给中文母语者。一次只攻一个点：示范、口型、对比词、放进句子。
+  tagline: 一次只练一个点。先看口型或规则，再放进句子，自己录音检查。
   actions:
     - text: 从开课说明开始
       link: /0-intro/
       icon: right-arrow
-    - text: 1.1 单元音
-      link: /1-phonetics/1-1/i-vs-ih/
+    - text: 建议的学习顺序
+      link: /appendix/a-order/
       icon: right-arrow
       variant: minimal
 ---
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
-## 现在可以学
+## 十二章
 
-**1.1 单元音对比** 已上线 6 课。其余章节目录已就位，内容陆续补齐。
+从语音开始，后面的课会用到前面的音。想换顺序，看 [建议的学习顺序](/appendix/a-order/)。
 
 <CardGrid>
-  <LinkCard title="/iː/ vs /ɪ/" href="/1-phonetics/1-1/i-vs-ih/" description="嘴角松紧，不是单纯拖长" />
-  <LinkCard title="/æ/ vs /e/" href="/1-phonetics/1-1/ae-vs-e/" description="张嘴差一指" />
-  <LinkCard title="/æ/ vs /ɑː/" href="/1-phonetics/1-1/ae-vs-aa/" description="两个不同的「啊」" />
-  <LinkCard title="/ʌ/" href="/1-phonetics/1-1/uh/" description="重读短 uh" />
-  <LinkCard title="/ʊ/ vs /uː/" href="/1-phonetics/1-1/u-vs-uu/" description="book ≠ boo" />
-  <LinkCard title="/ɑː/" href="/1-phonetics/1-1/aa/" description="开口不圆唇" />
+  <LinkCard title="一、语音" href="/1-phonetics/1-1/i-vs-ih/" description="单元音、辅音、重音和闪音" />
+  <LinkCard title="二、拼读" href="/2-phonics/2-1/rules/" description="看见字母，先猜读音" />
+  <LinkCard title="三、句子" href="/3-sentences/3-1/link/" description="连读、升降和跟读" />
+  <LinkCard title="四、听力" href="/4-listening/4-1/reduced/" description="缩略、弱读和精听" />
+  <LinkCard title="五、语序" href="/5-grammar/5-1/a-the/" description="冠词、单复数和时态怎么开口" />
+  <LinkCard title="六、对话" href="/6-dialogue/6-1/hi/" description="问候、请求、答应和没听清" />
+  <LinkCard title="七、用词" href="/7-expressions/7-1/place/" description="电梯、垃圾、时间和价格" />
+  <LinkCard title="八、场景" href="/8-scenarios/8-1/shop/" description="购物、出行、电话和自我介绍" />
+  <LinkCard title="九、短文" href="/9-passages/9-1/pick/" description="跟读、复述和即兴" />
+  <LinkCard title="十、节奏" href="/10-fluency/10-1/pace/" description="不要整句加速；自查和错音表" />
+  <LinkCard title="十一、英美差异" href="/11-us-uk/hear/" description="听得出来，嘴里仍说美式" />
+  <LinkCard title="十二、自己练" href="/12-practice/12-1/chain/" description="五个场景接起来，按周安排" />
 </CardGrid>
-
-## 一起改课
-
-开源仓库：[vocalace-course](https://github.com/KenjiGinjo/vocalace-course)（顶栏 **Star** 也可直达）。任意课页脚点 **「在 GitHub 修正此页」** 即可提 PR（错别字、音标、例句等）。
