@@ -1,0 +1,11 @@
+---
+/**
+ * Extends Starlight Head: per-page twitter:title matching og:title.
+ */
+import Default from '@astrojs/starlight/components/Head.astro'
+
+const { entry } = Astro.locals.starlightRoute
+---
+
+<Default><slot /></Default>
+<meta name="twitter:title" content={entry.data.title} />

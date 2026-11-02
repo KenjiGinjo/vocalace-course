@@ -1,0 +1,35 @@
+---
+/**
+ * Starlight Footer + one-line course/app identity.
+ */
+import Default from '@astrojs/starlight/components/Footer.astro'
+---
+
+<Default><slot /></Default>
+<p class="site-identity">
+	课程内容由
+	<a href="https://www.kenjiginjo.com/">Kenji Ginjo</a>（<a href="https://www.neziva.com/">Neziva</a>）编写 ·
+	跟读纠音请到
+	<a href="https://www.vocalace.com/practice">Vocalace 主站练习</a> ·
+	本站不含结账
+</p>
+
+<style>
+	.site-identity {
+		margin: 0.5rem 0 0;
+		font-size: var(--sl-text-xs);
+		line-height: 1.5;
+		color: var(--sl-color-gray-3);
+		text-align: center;
+	}
+
+	.site-identity a {
+		color: var(--sl-color-gray-2);
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.site-identity a:hover {
+		color: var(--sl-color-white);
+	}
+</style>

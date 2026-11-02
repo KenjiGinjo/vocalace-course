@@ -21,8 +21,81 @@ export default defineConfig({
         alt: 'Vocalace',
         replacesTitle: false,
       },
+      head: [
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: 'https://course.vocalace.com/og.png',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:image',
+            content: 'https://course.vocalace.com/og.png',
+          },
+        },
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          content: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'Organization',
+                '@id': 'https://course.vocalace.com/#organization',
+                name: 'Neziva',
+                alternateName: ['涅智维', '两江新区涅智维网络科技工作室'],
+                legalName: '两江新区涅智维网络科技工作室',
+                url: 'https://course.vocalace.com/',
+                email: 'kenjiginjo@gmail.com',
+                sameAs: [
+                  'https://www.neziva.com/',
+                  'https://www.vocalace.com/',
+                  'https://x.com/KenjiGinjo',
+                ],
+                founder: { '@id': 'https://course.vocalace.com/#kenji' },
+              },
+              {
+                '@type': 'Person',
+                '@id': 'https://course.vocalace.com/#kenji',
+                name: 'Kenji Ginjo',
+                url: 'https://www.kenjiginjo.com/',
+                email: 'kenjiginjo@gmail.com',
+                jobTitle: 'Founder',
+                worksFor: { '@id': 'https://course.vocalace.com/#organization' },
+                sameAs: [
+                  'https://x.com/KenjiGinjo',
+                  'https://www.kenjiginjo.com/',
+                  'https://github.com/KenjiGinjo',
+                  'https://dev.to/kenjiginjo',
+                ],
+              },
+              {
+                '@type': 'WebSite',
+                '@id': 'https://course.vocalace.com/#website',
+                name: 'Vocalace Course',
+                url: 'https://course.vocalace.com/',
+                inLanguage: 'zh-CN',
+                description:
+                  '面向中文母语者的美式英语课程：一课一个点，专攻高频错音与美式语流。',
+                publisher: { '@id': 'https://course.vocalace.com/#organization' },
+                creator: { '@id': 'https://course.vocalace.com/#kenji' },
+                isPartOf: {
+                  '@type': 'WebApplication',
+                  name: 'Vocalace',
+                  url: 'https://www.vocalace.com/',
+                },
+              },
+            ],
+          }),
+        },
+      ],
       customCss: ['./src/styles/vocalace.css'],
       components: {
+        Head: './src/components/Head.astro',
+        Footer: './src/components/Footer.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
         SocialIcons: './src/components/SocialIcons.astro',
         Pagination: './src/components/Pagination.astro',
