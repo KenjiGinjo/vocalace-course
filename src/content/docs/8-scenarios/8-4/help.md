@@ -26,7 +26,7 @@ description: "迷路了直接问 Where's the subway，对方还得再问你怎�
 
 对方说 *where are you trying to go?* 你就说地名。对方说 *two blocks that way*，你接 *Got it. Thank you.*
 
-站不稳、剧烈疼痛、说不出话，打 911。这课练的是你还能把这两句说完的时候。
+站不稳、剧烈疼痛、说不出话，立即拨打当地急救电话。这课练的是你还能把这两句说完的时候。
 
 ## 对比词
 

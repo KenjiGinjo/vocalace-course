@@ -54,11 +54,11 @@ description: "sure 听起来像 shoe，或嘴唇没圆？本课练美式 /ʊr/�
 
 **句 2：**
 
-> The **poor** guy just wants some **pure** water.  
-> /ðə pʊr ɡaɪ dʒʌst wɑːnts səm pjʊr ˈwɑːt̬ɚ/  
-> 那个可怜的人只想要点干净的水。
+> **Sure**, the **tour** has **pure** water.  
+> /ʃʊr | ðə tʊr hæz pjʊr ˈwɑːt̬ɚ/  
+> 好的，这次参观有纯净水。
 
-*poor* 和 *pure* 是这课的音。*water* 按前面学过的：/ɑː/ 大开，中间常是闪音，词尾轻卷舌。不要把 *water* 也读成 /ʊr/。
+*sure*、*tour*、*pure* 都把 r 留住。*water* 按前面学过的：/ɑː/ 大开，中间常是闪音，词尾轻卷舌。不要把 *water* 也读成 /ʊr/。
 
 ## 常见错误
 
@@ -112,9 +112,9 @@ B. /ʃʊr/，轻圆唇，词尾有 r
 
 **2. 开口读**
 
-> *The poor guy just wants some pure water.*
+> *Sure, the tour has pure water.*
 
-回听 *poor* 和 *pure* 的词尾。如果都像 "po-uh"、"pyu-uh"，按练习 B 再录这两个词。
+回听 *tour* 和 *pure* 的词尾。如果像 "to-uh"、"pyu-uh"，按练习 B 再录 *tour*、*poor*、*pure*。
 
 **3. 是非**
 

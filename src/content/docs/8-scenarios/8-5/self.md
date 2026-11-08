@@ -6,6 +6,8 @@ description: "Hi, I'm 后面开始找词，说完职业就停？按名字、职�
 
 名字会说，职业说到一半就换成「嗯」。说完一句，等下一句想好，对方以为你说完了，开始接话。自我介绍用四句短的，句和句之间换一口气就接下去。不要在脑子里先译完再开口。
 
+下面的名字、职位和城市只是跟读示例。开口练习换成你自己的。
+
 *I'm* 是 /aɪm/，*Nice to meet you* 的 *to* 是 /tə/，整句往下，见 [6.1.2](/6-dialogue/6-1/intro/)。这课只练四句怎么接上。
 
 没有整句录音。work [🔊](/audio/words/work.mp3)、like [🔊](/audio/words/like.mp3)、from [🔊](/audio/words/from.mp3)、now [🔊](/audio/words/now.mp3)、free [🔊](/audio/words/free.mp3)、time [🔊](/audio/words/time.mp3) 只对单词。

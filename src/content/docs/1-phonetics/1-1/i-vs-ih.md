@@ -1,10 +1,10 @@
 ---
 title: "听懂\"ee\"和\"i\"的区别——不只是长短，是肌肉松紧"
 lesson: "第 1.1.1 课"
-description: "分不清 seat/sit、beach？本课练美式 /iː/ 与 /ɪ/：关键是嘴角松紧，不是单纯长短，含对比词与句子跟读。"
+description: "分不清 seat/sit、sheep/ship？本课练美式 /iː/ 与 /ɪ/：关键是嘴角松紧，不是单纯长短，含对比词与句子跟读。"
 ---
 
-点咖啡说 *"I need a seat"*，服务员听成 *"I need to sit"*？跟朋友说 *"nice beach"*，场面突然微妙？
+点咖啡说 *"I need a seat"*，服务员听成 *"I need to sit"*。*sheep* 和 *ship* 也是同一件事。
 
 区别多半不在「拖没拖长」，而在嘴角和舌头有没有用力。中文「衣」已经接近，但发 /iː/ 时嘴角常常没绷紧，两个音就混在一起。
 
@@ -42,9 +42,6 @@ description: "分不清 seat/sit、beach？本课练美式 /iː/ 与 /ɪ/：关�
 | 2 | sheep [🔊](/audio/words/sheep.mp3) | /ʃiːp/ | ship [🔊](/audio/words/ship.mp3) | /ʃɪp/ | 只差嘴角松紧；不对先单独换元音 |
 | 3 | tea [🔊](/audio/words/tea.mp3) | /tiː/ | six [🔊](/audio/words/six.mp3) | /sɪks/ | tea 绷到收音；six 一开始就松 |
 | 4 | seat [🔊](/audio/words/seat.mp3) | /siːt/ | sit [🔊](/audio/words/sit.mp3) | /sɪt/ | 经典对：绷不绷就是两个词 |
-| 5 | beach [🔊](/audio/words/beach.mp3) | /biːtʃ/ | bitch [🔊](/audio/words/bitch.mp3) | /bɪtʃ/ | 发错后果很重——务必练到可控 |
-
-第 5 组说错时影响最大，值得单独多练几遍。
 
 ## 放进句子
 
@@ -75,7 +72,7 @@ sit 像 see，ship 像 sheep。
 纠正：食指放在嘴角外侧，发 /iː/ 时应感到手指被向外推。
 
 **3. /ɪ/ 发成尖而靠前的短「一」**  
-口音感重。  
+嘴角还在用力，听成了另一个词。  
 纠正：先「半打哈欠」放松下颌和舌头，再从这个状态发音；舌尖别用力顶下齿。
 
 ## 练习
@@ -95,8 +92,7 @@ sit 像 see，ship 像 sheep。
 1. see [🔊](/audio/words/see.mp3) vs sit [🔊](/audio/words/sit.mp3)  
 2. sheep [🔊](/audio/words/sheep.mp3) vs ship [🔊](/audio/words/ship.mp3)  
 3. seat [🔊](/audio/words/seat.mp3) vs sit [🔊](/audio/words/sit.mp3)  
-4. beach [🔊](/audio/words/beach.mp3) vs bitch [🔊](/audio/words/bitch.mp3)  
-5. tea [🔊](/audio/words/tea.mp3)，six [🔊](/audio/words/six.mp3)
+4. tea [🔊](/audio/words/tea.mp3)，six [🔊](/audio/words/six.mp3)
 
 流程：先录 /iː/ → 立刻回放 →「嘴角绷了吗？」→ 只改听出来的那一处 → 再录。镜子里：/iː/ 嘴角明显外拉，/ɪ/ 几乎不动。先慢，再回到正常语速。
 

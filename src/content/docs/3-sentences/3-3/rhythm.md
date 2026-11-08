@@ -18,30 +18,30 @@ description: "一开口就卡在某个元音上，整句节奏散了？先敲重
 
 | 阶段 | 听什么 | 先放下什么 |
 |------|--------|------------|
-| 节奏 | *didn't / say / stole / money* 更响、更长；*I / he / the* 轻；*money* 往下收 | 某个元音像不像 |
+| 节奏 | *didn't / say / locked / door* 更响、更长；*I / he / the* 轻；*door* 往下收 | 某个元音像不像 |
 | 改一个音 | 你在节奏那一遍里先听到的一个错音 | 其余的错音。写下来，这次不改 |
 
 口诀：节奏先，音素后。每次只改一处，改完再录整句。
 
 ## 对比词
 
-> I **didn't say** he **stole** the **money**.  
-> /aɪ ˈdɪdnt ˈseɪ i stoʊl ðə ˈmʌni/  
-> 我没说他偷了那笔钱。
+> I **didn't say** he **locked** the **door**.  
+> /aɪ ˈdɪdnt ˈseɪ i lɑːkt ðə dɔːr/  
+> 我没说他把门锁上了。
 
 *I* 轻而短，仍是 /aɪ/，不要收成 /ə/。*he* 不强调时常常只剩 /i/。*the* 是 /ðə/。*didn't* 里的 t 在 /n/ 前面常常不送气弹开，这不是元音之间的闪音。
 
 | # | 若这一遍先听到它 | 音 | 怎么改 |
 |---|------------------|----|--------|
 | 1 | didn't 的 t 送气很清楚 | /ˈdɪdnt/ | 舌尖可以碰到，气不要冲出来。见 [1.7.2](/1-phonetics/1-7/unreleased/) |
-| 2 | stole 的元音没有滑动 | stole [🔊](/audio/words/stole.mp3) /stoʊl/ | /oʊ/ 要滑完。词尾是暗 L，见 [1.5.9](/1-phonetics/1-5/dark-l/) |
-| 3 | money 的元音撮圆了 | money [🔊](/audio/words/money.mp3) /ˈmʌni/ | /ʌ/ 嘴微张、不圆唇。见 [1.1.4](/1-phonetics/1-1/uh/) |
+| 2 | locked 的元音撮圆了 | lock [🔊](/audio/words/lock.mp3) /lɑːk/ | 这句是 /lɑːkt/。嘴张开，不圆唇。见 [1.1.6](/1-phonetics/1-1/aa/) |
+| 3 | door 的 r 被吞了 | door [🔊](/audio/words/door.mp3) /dɔːr/ | 词尾把 r 收完。见 [1.4.2](/1-phonetics/1-4/or/) |
 
 say [🔊](/audio/words/say.mp3)、he [🔊](/audio/words/he.mp3) 是单独念的完整形式。句里 *he* 不强调时要比这条更短。
 
 ## 放进句子
 
-节奏那一遍只做这两件事：敲 *didn't、say、stole、money*，句尾 *money* 往下。音不准先留着。
+节奏那一遍只做这两件事：敲 *didn't、say、locked、door*，句尾 *door* 往下。音不准先留着。
 
 改音那一遍：从上面三行里只选你先听到的一行。那个词单独说 5 遍，放回整句说 3 遍，再录整句。只听那一个音有没有靠近。别的音写进表里。
 
@@ -60,7 +60,7 @@ say [🔊](/audio/words/say.mp3)、he [🔊](/audio/words/he.mp3) 是单独念�
 录音听不出是哪一处起了作用。只留一个，其余写进表。
 
 **3. 节奏那一遍每个词一样响**  
-先不跟读。只听，只敲 *didn't、say、stole、money*。敲得对再开口。*he* 不该和 *didn't* 一样响。
+先不跟读。只听，只敲 *didn't、say、locked、door*。敲得对再开口。*he* 不该和 *didn't* 一样响。
 
 ## 练习
 
@@ -75,9 +75,9 @@ say [🔊](/audio/words/say.mp3)、he [🔊](/audio/words/he.mp3) 是单独念�
 
 ### B｜只改一个音（约 4 分钟）
 
-从 *didn't*、*stole*、*money* 里选你在 A 里先听到的那一个。
+从 *didn't*、*locked*、*door* 里选你在 A 里先听到的那一个。
 
-1. 那个词说 5 遍。*stole*、*money* 可以对一下上面的 🔊，再看镜子  
+1. 那个词说 5 遍。*locked*、*door* 可以对一下上面的 🔊，再看镜子  
 2. 放回整句，说 3 遍  
 3. 录整句。只判断那一个音  
 4. 靠近了：其余写进表。还没靠近：只把这个词再说 3 遍，再录整句。不要加上第二个音
@@ -101,7 +101,7 @@ C. 换一句没有这个元音的
 
 **2. 开口**
 
-录一遍 *I didn't say he stole the money.* 说完填这句：「这遍里 \_\_\_ 还不对，错在 \_\_\_。」
+录一遍 *I didn't say he locked the door.* 说完填这句：「这遍里 \_\_\_ 还不对，错在 \_\_\_。」
 
 要有词，也要有方向。只说「感觉不对」，这一步还没完。
 

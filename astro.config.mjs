@@ -49,7 +49,7 @@ export default defineConfig({
                 alternateName: ['涅智维', '两江新区涅智维网络科技工作室'],
                 legalName: '两江新区涅智维网络科技工作室',
                 url: 'https://course.vocalace.com/',
-                email: 'kenjiginjo@gmail.com',
+                email: 'hello@vocalace.com',
                 sameAs: [
                   'https://www.neziva.com/',
                   'https://www.vocalace.com/',
@@ -62,7 +62,7 @@ export default defineConfig({
                 '@id': 'https://course.vocalace.com/#kenji',
                 name: 'Kenji Ginjo',
                 url: 'https://www.kenjiginjo.com/',
-                email: 'kenjiginjo@gmail.com',
+                email: 'hello@vocalace.com',
                 jobTitle: 'Founder',
                 worksFor: { '@id': 'https://course.vocalace.com/#organization' },
                 sameAs: [

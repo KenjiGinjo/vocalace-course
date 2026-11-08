@@ -1,16 +1,16 @@
 ---
 title: "重音换词，意思就换"
 lesson: "第 3.2.2 课"
-description: "整句每个词一样响，对方听成另一个意思？本课用同一句，把重音换到 I、say、he、stole 上，各说一层意思。"
+description: "整句每个词一样响，对方听成另一个意思？本课用同一句，把重音换到 I、say、he、locked 上，各说一层意思。"
 ---
 
 语法没错，对方还是会问你到底在否定哪一件事。英语用一个词更响、更长，标出「我要更正的是这个」。每个词一样响，焦点就没了。
 
-这课只练一句：*I didn't say he stole the money.* 重音落在哪个词，否定的就是那个词。词里哪一拍重，见 [1.6.1](/1-phonetics/1-6/stress/)。陈述句里这个重音先抬一点再落下，不要一路升上去，那是 [上一课](/3-sentences/3-2/contour/) 的问句。
+这课只练一句：*I didn't say he locked the door.* 重音落在哪个词，否定的就是那个词。词里哪一拍重，见 [1.6.1](/1-phonetics/1-6/stress/)。陈述句里这个重音先抬一点再落下，不要一路升上去，那是 [上一课](/3-sentences/3-2/contour/) 的问句。
 
 句子没有整句录音，也没有「四种强调版」的录音。你自己换重音。
 
-这课目标：不看字，听自己的录音，能说出这一遍否定的是「谁说的」「说没说」「是不是他」还是「是不是偷」。
+这课目标：不看字，听自己的录音，能说出这一遍否定的是「谁说的」「说没说」「是不是他」还是「是不是锁上」。
 
 ## 口型
 
@@ -20,8 +20,8 @@ description: "整句每个词一样响，对方听成另一个意思？本课用
 
 ## 对比词
 
-基本句：*I didn't say he stole the money.*  
-/aɪ ˈdɪdnt seɪ hi stoʊl ðə ˈmʌni/
+基本句：*I didn't say he locked the door.*  
+/aɪ ˈdɪdnt seɪ hi lɑːkt ðə dɔːr/
 
 每一版只让一个词做上面三件事。
 
@@ -30,25 +30,25 @@ description: "整句每个词一样响，对方听成另一个意思？本课用
 | 1 | **I** | 不是我说的 | /aɪ/ 拉长，先起再落。*I* 没有词典录音，元音和 eye [🔊](/audio/words/eye.mp3) /aɪ/ 相同，不要把那条当成这句的重音示范 |
 | 2 | **say** | 我没说出口 | say [🔊](/audio/words/say.mp3) /seɪ/ 把 /eɪ/ 滑完 |
 | 3 | **he** | 不是他 | 强调时是 /hiː/，有 /h/。不强调时常常只剩很短的 /i/。he [🔊](/audio/words/he.mp3) 是完整的 /hiː/ |
-| 4 | **stole** | 不是「偷」这个动作 | stole [🔊](/audio/words/stole.mp3) /stoʊl/ 把 /oʊ/ 滑完。词尾是暗 L，见 [1.5.9](/1-phonetics/1-5/dark-l/) |
+| 4 | **locked** | 不是「锁上」这个动作 | lock [🔊](/audio/words/lock.mp3) /lɑːk/ 嘴张开、不圆唇。这句是 *locked* /lɑːkt/，见 [1.1.6](/1-phonetics/1-1/aa/) |
 
-*the money* 在这四版里都轻。money [🔊](/audio/words/money.mp3) /ˈmʌni/ 只用来对这个词本身。
+*the door* 在这四版里都轻。door [🔊](/audio/words/door.mp3) /dɔːr/ 只用来对这个词本身。
 
 ## 放进句子
 
 四版都是这一句，只换敲的那一下。
 
-**1.** ***I*** didn't say he stole the money.  
+**1.** ***I*** didn't say he locked the door.  
 有人以为是你传出去的。你否定的是「说话的人是我」。
 
-**2.** I didn't ***say*** he stole the money.  
-你否定的是「说出口」。写过、暗示过，这句没否认。
+**2.** I didn't ***say*** he locked the door.  
+你否定的是「说出口」。写过、点过头，这句没否认。
 
-**3.** I didn't say ***he*** stole the money.  
+**3.** I didn't say ***he*** locked the door.  
 你否定的是「那个人是他」。
 
-**4.** I didn't say he ***stole*** the money.  
-你否定的是「偷」。钱的事可以还在，动作不一定是偷。
+**4.** I didn't say he ***locked*** the door.  
+你否定的是「锁上」。门可以还关着，动作不一定是锁。
 
 说的时候，焦点词前后的词保持轻。不要为了强调把整句放慢。
 
@@ -80,7 +80,7 @@ description: "整句每个词一样响，对方听成另一个意思？本课用
 1. I /aɪ/  
 2. say /seɪ/  
 3. he /hiː/  
-4. stole /stoʊl/
+4. locked /lɑːkt/
 
 只改听出来的那一件：没拉长，或没有落下。然后放回句子里再录这一版。
 
@@ -96,14 +96,14 @@ description: "整句每个词一样响，对方听成另一个意思？本课用
 
 A. 话不是我说的  
 B. 那个人不是他  
-C. 动作不是偷  
+C. 动作不是锁上  
 D. 我根本没开口
 
 答案：**B**。
 
 **2. 开口**
 
-按这句中文说英文，并录音：「我没说出口（但也许暗示过）他偷了钱。」
+按这句中文说英文，并录音：「我没说出口（但也许写下来了）他把门锁上了。」
 
 回听 *say*：比旁边的词更长，音高先起再落。一路往上，就只改 *say*。
 

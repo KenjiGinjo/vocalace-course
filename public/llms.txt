@@ -5,9 +5,6 @@ One lesson, one point: high-frequency sound errors and American flow (reduction,
 This site is the course content site — not checkout. Practice and pricing live on the main app.
 Practice app: https://www.vocalace.com
 Price / trial: https://www.vocalace.com/price/
-Built by Kenji Ginjo at Neziva (两江新区涅智维网络科技工作室).
-Founder: Kenji Ginjo — https://www.kenjiginjo.com · X @KenjiGinjo · GitHub https://github.com/KenjiGinjo
-Studio: Neziva — https://www.neziva.com
 Repo: https://github.com/KenjiGinjo/vocalace-course
 Site: https://course.vocalace.com
-Contact: kenjiginjo@gmail.com
+Contact: hello@vocalace.com
