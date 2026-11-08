@@ -3,18 +3,15 @@
  * Starlight Footer + one-line course/app identity.
  */
 import Default from '@astrojs/starlight/components/Footer.astro'
+import TermsGate from './TermsGate.astro'
 ---
 
 <Default><slot /></Default>
 <p class="site-identity">
-	跟读纠音请到
-	<a href="https://www.vocalace.com/practice">Vocalace 主站练习</a> ·
-	本站不含结账
-	<br />
-	本站由 Neziva 运营 ·
-	<a href="https://www.vocalace.com/privacy">隐私政策</a> ·
-	<a href="https://www.vocalace.com/terms">用户协议</a>
+	由两江新区涅智维网络科技工作室运营（品牌 Neziva） ·
+	<a href="/site-notice/">使用声明</a>
 </p>
+<TermsGate />
 
 <style>
 	.site-identity {

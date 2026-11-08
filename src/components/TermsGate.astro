@@ -1,0 +1,183 @@
+---
+/**
+ * First-visit terms gate.
+ * The lesson HTML stays in the page. This layer is hidden until the browser
+ * asks for a decision, and marked data-nosnippet so it does not replace
+ * lesson text in search results.
+ */
+const version = '2026-11-09.2'
+---
+
+<div id="course-terms-gate" class="course-terms-gate" hidden data-nosnippet>
+	<div class="course-terms-panel" role="dialog" aria-modal="false" aria-labelledby="course-terms-title">
+		<h2 id="course-terms-title">使用声明</h2>
+		<p>请先阅读并同意本声明。版本 {version}。</p>
+		<p>
+			<strong>本网站内容仅供语言学习与发音练习。经营者不保证学习效果，不保证第三方能够听懂使用者的口语，相关内容亦不构成考试成绩或资质证明。情景例句仅用于语言训练，不构成医疗、急救、安全或法律意见。</strong>
+		</p>
+		<p>本网站不提供账号注册、语音采集或付款服务。</p>
+		<p><a href="/site-notice/">阅读全文</a></p>
+		<div class="course-terms-actions">
+			<button type="button" data-course-terms-accept>同意并继续</button>
+			<button type="button" data-course-terms-decline>不同意并关闭</button>
+		</div>
+	</div>
+</div>
+
+<script is:inline define:vars={{ version }}>
+	const key = 'vocalace-course-terms'
+	const gate = document.getElementById('course-terms-gate')
+	const onNotice = location.pathname.replace(/\/$/, '').endsWith('/site-notice')
+
+	function hide() {
+		if (gate) gate.hidden = true
+	}
+
+	function accept() {
+		try {
+			localStorage.setItem(key, version)
+		} catch {
+			/* 隐私模式写不进时，这次先放行 */
+		}
+		hide()
+		if (!onNotice) return
+		const back = document.referrer
+		if (back.startsWith(location.origin) && !back.includes('/site-notice')) {
+			location.href = back
+			return
+		}
+		location.href = '/'
+	}
+
+	function decline() {
+		window.close()
+		document.title = '使用声明'
+		document.body.className = 'course-terms-declined'
+		document.body.replaceChildren()
+		const note = document.createElement('p')
+		note.textContent = '您未同意《使用声明》，将不会为您提供任何内容。'
+		document.body.append(note)
+	}
+
+	document.addEventListener('click', (event) => {
+		const target = event.target
+		if (!(target instanceof Element)) return
+		if (target.closest('[data-course-terms-accept]')) accept()
+		if (target.closest('[data-course-terms-decline]')) decline()
+	})
+
+	let accepted = false
+	try {
+		accepted = localStorage.getItem(key) === version
+	} catch {
+		accepted = false
+	}
+
+	if (!accepted && !onNotice && gate) {
+		if (gate.parentElement !== document.body) document.body.appendChild(gate)
+		gate.hidden = false
+		const button = gate.querySelector('[data-course-terms-accept]')
+		if (button instanceof HTMLElement) button.focus()
+	}
+</script>
+
+<style>
+	:global(body.course-terms-declined) {
+		display: grid;
+		min-height: 100vh;
+		margin: 0;
+		place-items: center;
+		padding: 2rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+	}
+
+	:global(body.course-terms-declined p) {
+		max-width: 36rem;
+		margin: 0;
+		font-size: 1.125rem;
+		line-height: 1.7;
+		text-align: center;
+	}
+
+	.course-terms-gate {
+		position: fixed;
+		z-index: 10000;
+		top: 4.5rem;
+		left: 1.25rem;
+		right: 1.25rem;
+		width: auto;
+		max-width: 36rem;
+		margin-inline: auto;
+		pointer-events: none;
+		background: none;
+	}
+
+	.course-terms-gate[hidden] {
+		display: none;
+	}
+
+	.course-terms-panel {
+		width: 100%;
+		max-height: min(32rem, calc(100vh - 2.5rem));
+		overflow: auto;
+		margin: 0;
+		padding: 1.25rem 1.35rem 1.1rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.75rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+		box-shadow: var(--sl-shadow-lg);
+		pointer-events: auto;
+	}
+
+	.course-terms-panel h2 {
+		margin: 0 0 0.75rem;
+		font-size: var(--sl-text-2xl);
+		line-height: 1.3;
+		color: var(--sl-color-white);
+	}
+
+	.course-terms-panel p {
+		margin: 0 0 0.75rem;
+		font-size: var(--sl-text-sm);
+		line-height: 1.7;
+	}
+
+	.course-terms-panel a {
+		color: var(--sl-color-accent-high);
+	}
+
+	.course-terms-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 0.25rem;
+	}
+
+	.course-terms-panel button,
+	:global([data-course-terms-accept]),
+	:global([data-course-terms-decline]) {
+		height: 2.25rem;
+		padding: 0 0.9rem;
+		border-radius: 0.5rem;
+		font: inherit;
+		font-size: var(--sl-text-sm);
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.course-terms-panel [data-course-terms-accept],
+	:global(main [data-course-terms-accept]) {
+		border: 0;
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+	}
+
+	.course-terms-panel [data-course-terms-decline],
+	:global(main [data-course-terms-decline]) {
+		border: 1px solid var(--sl-color-gray-5);
+		background: transparent;
+		color: var(--sl-color-white);
+	}
+</style>

@@ -1,17 +1,13 @@
 ---
 /**
- * Header actions: Star the open-source course repo + jump into Vocalace practice.
+ * Header action: Star the open-source course repo.
  */
 import { Icon } from '@astrojs/starlight/components'
 
 const repoHref = 'https://github.com/KenjiGinjo/vocalace-course'
-const practiceHref = 'https://www.vocalace.com/practice'
 ---
 
 <div class="header-actions">
-	<a class="practice-cta" href={practiceHref} title="打开 Vocalace，跟读并纠音">
-		去练习
-	</a>
 	<a
 		class="star-cta"
 		href={repoHref}
@@ -31,8 +27,7 @@ const practiceHref = 'https://www.vocalace.com/practice'
 		gap: 0.5rem;
 	}
 
-	.star-cta,
-	.practice-cta {
+	.star-cta {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -49,9 +44,6 @@ const practiceHref = 'https://www.vocalace.com/practice'
 			background 0.15s ease,
 			color 0.15s ease,
 			border-color 0.15s ease;
-	}
-
-	.star-cta {
 		border: 1px solid var(--sl-color-hairline);
 		background: transparent;
 		color: var(--sl-color-gray-2);
@@ -71,40 +63,13 @@ const practiceHref = 'https://www.vocalace.com/practice'
 		flex-shrink: 0;
 	}
 
-	.practice-cta {
-		padding: 0 0.9rem;
-		background: oklch(0.45 0.09 185);
-		color: oklch(0.99 0.01 82);
-	}
-
-	.practice-cta:hover {
-		background: oklch(0.4 0.09 185);
-		color: oklch(0.99 0.01 82);
-	}
-
-	.practice-cta:focus-visible {
-		outline: 2px solid oklch(0.45 0.09 185);
-		outline-offset: 2px;
-	}
-
 	:global(.mobile-preferences) .header-actions {
 		gap: 0.6rem;
 	}
 
-	:global(.mobile-preferences) .star-cta,
-	:global(.mobile-preferences) .practice-cta {
+	:global(.mobile-preferences) .star-cta {
 		height: 2.5rem;
 		padding-inline: 1rem;
 		font-size: 0.875rem;
-	}
-
-	:root[data-theme='dark'] .practice-cta {
-		background: oklch(0.75 0.1 185);
-		color: oklch(0.18 0.02 185);
-	}
-
-	:root[data-theme='dark'] .practice-cta:hover {
-		background: oklch(0.8 0.09 185);
-		color: oklch(0.18 0.02 185);
 	}
 </style>
