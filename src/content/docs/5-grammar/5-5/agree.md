@@ -28,7 +28,7 @@ description: "He go、She like 说顺口了？现在的习惯句里，主语是 
 - 以 *s / x / z / ch / sh* 结尾，加 *-es*，多一个音节：*watch → watches*
 - *have* 变成 *has*，不要说成 *haves*
 
-*-s* 贴在词尾，不要另起一个 *go-ez*。清辅音后面是 /s/：*works* /wɝːks/。浊辅音或元音后面是 /z/：*goes* /ɡoʊz/。
+*-s* 贴在词尾，不要另起一个 *go-ez*。清辅音后面是 /s/：*works* /wɝːks/。浊辅音或元音后面是 /z/：*goes* /ɡoʊz/。喉结振不振见 [1.5.11](/1-phonetics/1-5/s-z/)。
 
 ## 对比词
 

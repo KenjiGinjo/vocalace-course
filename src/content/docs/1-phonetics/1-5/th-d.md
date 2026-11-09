@@ -28,7 +28,7 @@ description: "this、the 被听成 dis、ze？本课练美式浊齿间音 /ð/�
 | 2 | that [🔊](/audio/words/that.mp3) | /ðæt/ | 同样变成爆破 | /æ/ 嘴角拉开。词头仍是摩擦 |
 | 3 | the [🔊](/audio/words/the.mp3) | /ðə/ | /zə/ 或 /də/ | 弱读也要把舌尖向前顶。重读时是 /ði/ |
 | 4 | mother [🔊](/audio/words/mother.mp3) | /ˈmʌðɚ/ | 中间的 /ð/ 被吞掉，或变成 /d/、/z/ | 第二拍开头停一下，先摩擦再收卷舌 |
-| 5 | those [🔊](/audio/words/those.mp3) | /ðoʊz/ | 词头也吞成 /z/ | 开头是 /ð/，结尾的 /z/ 是另一个音 |
+| 5 | those [🔊](/audio/words/those.mp3) | /ðoʊz/ | 词头也吞成 /z/ | 开头是 /ð/。结尾的 /z/ 见 [1.5.11](/1-phonetics/1-5/s-z/) |
 
 真实的一对：though [🔊](/audio/words/though.mp3) /ðoʊ/ 和 dough [🔊](/audio/words/dough.mp3) /doʊ/。一个有持续的气，一个是短促的爆破。
 

@@ -167,6 +167,7 @@ export default defineConfig({
                 { label: '词首送气', slug: '1-phonetics/1-5/ptk' },
                 { label: '明 L / 暗 L', slug: '1-phonetics/1-5/dark-l' },
                 { label: '/θr/', slug: '1-phonetics/1-5/th-r' },
+                { label: '/z/ vs /s/', slug: '1-phonetics/1-5/s-z' },
               ],
             },
             {

@@ -28,7 +28,7 @@ description: "bead 和 beat 只靠词尾分不清？本课练清浊对元音长�
 | 3 | cab [🔊](/audio/words/cab.mp3) /kæb/ | cap [🔊](/audio/words/cap.mp3) /kæp/ |
 | 4 | leave [🔊](/audio/words/leave.mp3) /liːv/ | leaf [🔊](/audio/words/leaf.mp3) /liːf/ |
 
-音标不另造长音符号。长短靠你留不留那一拍。*leave* 的 /iː/ 比 *leaf* 更长；/v/ 和 /f/ 仍要分开，牙碰不碰下唇见 [1.5.3](/1-phonetics/1-5/v-w/)。
+音标不另造长音符号。长短靠你留不留那一拍。*leave* 的 /iː/ 比 *leaf* 更长；/v/ 和 /f/ 仍要分开，牙碰不碰下唇见 [1.5.3](/1-phonetics/1-5/v-w/)。词尾 /z/ 和 /s/ 见 [1.5.11](/1-phonetics/1-5/s-z/)。
 
 ## 放进句子
 
