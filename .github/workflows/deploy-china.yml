@@ -1,0 +1,23 @@
+name: Deploy China
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  china:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: sudo apt-get update && sudo apt-get install -y sshpass
+      - run: bun install --frozen-lockfile
+      - name: Upload course.vocalace.com.cn
+        env:
+          SERVER_ICP_IP: ${{ secrets.SERVER_ICP_IP }}
+          SERVER_ICP_USERNAME: ${{ secrets.SERVER_ICP_USERNAME }}
+          SERVER_ICP_PASSWORD: ${{ secrets.SERVER_ICP_PASSWORD }}
+          SERVER_ICP_PORT: ${{ secrets.SERVER_ICP_PORT }}
+          SERVER_ICP_REMOTE_PATH: ${{ secrets.SERVER_ICP_REMOTE_PATH }}
+          ASTRO_SITE_CN: ${{ secrets.ASTRO_SITE_CN }}
+        run: bun run deploy china

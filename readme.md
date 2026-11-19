@@ -25,7 +25,7 @@ bun run build
 bun run preview  # http://localhost:10096/
 ```
 
-`astro.config.mjs` 里 `site` 是 `https://course.vocalace.com`，没有 `base`，部署在这个域名的根路径。
+`site` 只读环境变量 `ASTRO_SITE`，没有 `base`，部署在这个域名的根路径。本地写在 `.env`。
 
 ## 课在哪
 
@@ -52,4 +52,14 @@ bun run preview  # http://localhost:10096/
 
 ## 部署
 
-`bun run build` 的结果在 `dist/`。线上是 [course.vocalace.com](https://course.vocalace.com)。
+`bun run build` 打 `dist/`，`site` 用 `ASTRO_SITE`。push 后 Cloudflare 发布 [course.vocalace.com](https://course.vocalace.com)。不要把这份 `dist/` 拷到国内站。
+
+国内站另打再传：
+
+```bash
+bun run deploy china
+```
+
+有 `SERVER_ICP_IP` 和 `ASTRO_SITE_CN`（见本机 `.env`，不进仓库）才上传。国内构建把 `ASTRO_SITE` 设成 `ASTRO_SITE_CN`，产物在 `dist-icp/`，只覆盖服务器上该目录里的静态文件。nginx 和证书不在这里改。
+
+Cloudflare 环境变量要设 `ASTRO_SITE=https://course.vocalace.com`。GitHub Secret 另加 `ASTRO_SITE_CN=https://course.vocalace.com.cn`。没配好之前不要 push，否则对应那条构建会停。

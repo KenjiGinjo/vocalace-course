@@ -1,9 +1,42 @@
 // @ts-check
+import { existsSync, readFileSync } from 'node:fs'
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 
+const envFile = new URL('./.env', import.meta.url)
+if (existsSync(envFile)) {
+  for (const line of readFileSync(envFile, 'utf8').split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) {
+      continue
+    }
+    const eq = trimmed.indexOf('=')
+    if (eq === -1) {
+      continue
+    }
+    const key = trimmed.slice(0, eq).trim()
+    if (!key.startsWith('ASTRO_') || process.env[key]) {
+      continue
+    }
+    let val = trimmed.slice(eq + 1).trim()
+    if (
+      (val.startsWith('"') && val.endsWith('"'))
+      || (val.startsWith('\'') && val.endsWith('\''))
+    ) {
+      val = val.slice(1, -1)
+    }
+    process.env[key] = val
+  }
+}
+
+const site = process.env.ASTRO_SITE?.replace(/\/$/, '')
+if (!site) {
+  throw new Error('ASTRO_SITE is missing')
+}
+
 export default defineConfig({
-  site: 'https://course.vocalace.com',
+  site,
+  outDir: process.env.OUT_DIR || './dist',
   integrations: [
     starlight({
       title: 'Vocalace',
@@ -41,14 +74,14 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:image',
-            content: 'https://course.vocalace.com/og.png',
+            content: `${site}/og.png`,
           },
         },
         {
           tag: 'meta',
           attrs: {
             name: 'twitter:image',
-            content: 'https://course.vocalace.com/og.png',
+            content: `${site}/og.png`,
           },
         },
         {
@@ -59,27 +92,27 @@ export default defineConfig({
             '@graph': [
               {
                 '@type': 'Organization',
-                '@id': 'https://course.vocalace.com/#organization',
+                '@id': `${site}/#organization`,
                 name: 'Neziva',
                 alternateName: ['涅智维', '两江新区涅智维网络科技工作室'],
                 legalName: '两江新区涅智维网络科技工作室',
-                url: 'https://course.vocalace.com/',
+                url: `${site}/`,
                 email: 'hello@vocalace.com',
                 sameAs: [
                   'https://www.neziva.com/',
                   'https://www.vocalace.com/',
                   'https://x.com/KenjiGinjo',
                 ],
-                founder: { '@id': 'https://course.vocalace.com/#kenji' },
+                founder: { '@id': `${site}/#kenji` },
               },
               {
                 '@type': 'Person',
-                '@id': 'https://course.vocalace.com/#kenji',
+                '@id': `${site}/#kenji`,
                 name: 'Kenji Ginjo',
                 url: 'https://www.kenjiginjo.com/',
                 email: 'hello@vocalace.com',
                 jobTitle: 'Founder',
-                worksFor: { '@id': 'https://course.vocalace.com/#organization' },
+                worksFor: { '@id': `${site}/#organization` },
                 sameAs: [
                   'https://x.com/KenjiGinjo',
                   'https://www.kenjiginjo.com/',
@@ -89,14 +122,14 @@ export default defineConfig({
               },
               {
                 '@type': 'WebSite',
-                '@id': 'https://course.vocalace.com/#website',
+                '@id': `${site}/#website`,
                 name: 'Vocalace Course',
-                url: 'https://course.vocalace.com/',
+                url: `${site}/`,
                 inLanguage: 'zh-CN',
                 description:
                   '面向中文母语者的美式英语课程：一课一个点，专攻高频错音与美式语流。',
-                publisher: { '@id': 'https://course.vocalace.com/#organization' },
-                creator: { '@id': 'https://course.vocalace.com/#kenji' },
+                publisher: { '@id': `${site}/#organization` },
+                creator: { '@id': `${site}/#kenji` },
                 isPartOf: {
                   '@type': 'WebApplication',
                   name: 'Vocalace',

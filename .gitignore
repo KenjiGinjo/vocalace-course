@@ -1,5 +1,7 @@
 node_modules/
 dist/
+dist-icp/
+.env
 .astro/
 .DS_Store
 
