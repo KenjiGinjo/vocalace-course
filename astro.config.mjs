@@ -34,19 +34,24 @@ Allow: /
 Sitemap: https://${chinaHost}/sitemap-index.xml
 `
 
+/** @param {string} text */
 function chinaLlms(text) {
   return text
     .replaceAll(/https:\/\/course\.vocalace\.com(?!\.cn)/g, `https://${chinaHost}`)
     .replaceAll(/https:\/\/www\.vocalace\.com(?!\.cn)/g, 'https://www.vocalace.com.cn')
 }
 
-/** 国内构建覆盖 public 里按 .com 写的 robots / llms。海外构建不进这里。 */
-function chinaPublic() {
+/** 国内构建覆盖 public 里按 .com 写的 robots / llms。海外构建不进这里。
+ * @param {string} origin
+ */
+function chinaPublic(origin) {
+  const host = new URL(origin).hostname
   return {
     name: 'china-public',
     hooks: {
+      /** @param {{ dir: URL }} options */
       'astro:build:done': ({ dir }) => {
-        if (new URL(site).hostname !== chinaHost) {
+        if (host !== chinaHost) {
           return
         }
         const out = fileURLToPath(dir)
@@ -93,7 +98,7 @@ export default defineConfig({
   site,
   outDir: process.env.OUT_DIR || './dist',
   integrations: [
-    chinaPublic(),
+    chinaPublic(site),
     starlight({
       title: 'Vocalace',
       description: '面向中文母语者的美式英语课程：专攻高频错音与美式语流（弱化、连读、闪音、重音、美式用词），一课只练一个点，示范跟读后录音对照。目标是别人听得懂，开口有底气。',
