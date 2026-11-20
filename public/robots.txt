@@ -1,3 +1,17 @@
+User-agent: Baiduspider
+User-agent: Baiduspider-image
+User-agent: Baiduspider-video
+User-agent: Baiduspider-news
+User-agent: Baiduspider-render
+User-agent: 360Spider
+User-agent: HaosouSpider
+User-agent: YisouSpider
+User-agent: Sogou web spider
+User-agent: Sogou inst spider
+User-agent: Sogou News Spider
+User-agent: Bytespider
+Disallow: /
+
 User-agent: *
 Allow: /
 
