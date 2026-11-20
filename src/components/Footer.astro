@@ -4,12 +4,20 @@
  */
 import Default from '@astrojs/starlight/components/Footer.astro'
 import TermsGate from './TermsGate.astro'
+
+const showIcp = Astro.site?.hostname === 'course.vocalace.com.cn'
 ---
 
 <Default><slot /></Default>
 <p class="site-identity">
 	由两江新区涅智维网络科技工作室运营（品牌 Neziva） ·
 	<a href="/site-notice/">使用声明</a>
+	{showIcp && (
+		<>
+			{' · '}
+			<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">渝ICP备2026020813号-2</a>
+		</>
+	)}
 </p>
 <TermsGate />
 
