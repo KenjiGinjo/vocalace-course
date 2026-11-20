@@ -93,6 +93,9 @@ const site = process.env.ASTRO_SITE?.replace(/\/$/, '')
 if (!site) {
   throw new Error('ASTRO_SITE is missing')
 }
+const appOrigin = new URL(site).hostname === chinaHost
+  ? 'https://www.vocalace.com.cn/'
+  : 'https://www.vocalace.com/'
 
 export default defineConfig({
   site,
@@ -161,7 +164,7 @@ export default defineConfig({
                 email: 'hello@vocalace.com',
                 sameAs: [
                   'https://www.neziva.com/',
-                  'https://www.vocalace.com/',
+                  appOrigin,
                   'https://x.com/KenjiGinjo',
                 ],
                 founder: { '@id': `${site}/#kenji` },
@@ -194,7 +197,7 @@ export default defineConfig({
                 isPartOf: {
                   '@type': 'WebApplication',
                   name: 'Vocalace',
-                  url: 'https://www.vocalace.com/',
+                  url: appOrigin,
                 },
               },
             ],
